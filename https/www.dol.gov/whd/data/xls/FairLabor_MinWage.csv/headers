@@ -1,0 +1,16 @@
+GET https://www.dol.gov/whd/data/xls/FairLabor_MinWage.csv
+
+
+
+< Status 200 OK
+< Content-Type: application/octet-stream
+< Last-Modified: Tue, 20 Dec 2016 17:12:55 GMT
+< Accept-Ranges: bytes
+< ETag: "bf51f24de45ad21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1221
+< Date: Thu, 19 Jan 2017 17:08:55 GMT
+< Connection: close
+
+wrote body.csv

@@ -1,0 +1,16 @@
+GET https://www.dol.gov/whd/data/xls/FMLA_Nature.csv
+
+
+
+< Status 200 OK
+< Content-Type: application/octet-stream
+< Last-Modified: Tue, 20 Dec 2016 17:13:51 GMT
+< Accept-Ranges: bytes
+< ETag: "4fc9236fe45ad21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 889
+< Date: Thu, 19 Jan 2017 17:10:03 GMT
+< Connection: close
+
+wrote body.csv

@@ -1,0 +1,16 @@
+GET https://www.dol.gov/whd/data/xls/All_Acts.csv
+
+
+
+< Status 200 OK
+< Content-Type: application/octet-stream
+< Last-Modified: Tue, 20 Dec 2016 17:09:59 GMT
+< Accept-Ranges: bytes
+< ETag: "cfeb4ce5e35ad21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1555
+< Date: Thu, 19 Jan 2017 17:08:37 GMT
+< Connection: close
+
+wrote body.csv

@@ -1,0 +1,16 @@
+GET https://www.dol.gov/whd/data/xls/Outreach_Events.csv
+
+
+
+< Status 200 OK
+< Content-Type: application/octet-stream
+< Last-Modified: Tue, 20 Dec 2016 17:17:42 GMT
+< Accept-Ranges: bytes
+< ETag: "4f85af9e45ad21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 312
+< Date: Thu, 19 Jan 2017 17:09:08 GMT
+< Connection: close
+
+wrote body.csv

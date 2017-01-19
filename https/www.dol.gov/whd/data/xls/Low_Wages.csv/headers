@@ -1,0 +1,16 @@
+GET https://www.dol.gov/whd/data/xls/Low_Wages.csv
+
+
+
+< Status 200 OK
+< Content-Type: application/octet-stream
+< Last-Modified: Tue, 20 Dec 2016 17:17:10 GMT
+< Accept-Ranges: bytes
+< ETag: "cfba3fe6e45ad21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 8446
+< Date: Thu, 19 Jan 2017 17:08:59 GMT
+< Connection: close
+
+wrote body.csv

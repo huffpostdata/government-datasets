@@ -1,0 +1,15 @@
+GET https://www.dol.gov/whd/data/
+
+
+
+< Status 200 OK
+< Cache-Control: private
+< Content-Length: 21108
+< Content-Type: text/html
+< Last-Modified: 12/20/2016 4:31:38 PM
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Date: Thu, 19 Jan 2017 17:07:40 GMT
+< Connection: close
+
+wrote body.html

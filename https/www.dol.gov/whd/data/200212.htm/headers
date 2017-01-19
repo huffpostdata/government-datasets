@@ -1,0 +1,16 @@
+GET https://www.dol.gov/whd/data/200212.htm
+
+
+
+< Status 200 OK
+< Cache-Control: private
+< Content-Length: 37734
+< Content-Type: text/html
+< Last-Modified: 12/18/2014 3:53:23 PM
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Date: Thu, 19 Jan 2017 17:12:22 GMT
+< Connection: close
+< Set-Cookie: ASPSESSIONIDSUQCTQRQ=BKOKCLEALNOBAFNGODGFCOKK; secure; path=/
+
+wrote body.html
