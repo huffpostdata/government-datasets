@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict'
+
 const fs = require('fs')
 const http = require('http')
 const https = require('https')
@@ -12,7 +14,12 @@ const mime = require('mime-types')
 const url_to_dirname = require('./lib/url_to_dirname')
 const mkdirp = require('mkdirp')
 
-'use strict'
+function allowMissingIntermediateSslCertificates() {
+  https.globalAgent.options.ca = Buffer.concat(fs.readdirSync(`${__dirname}/ssl`)
+    .filter(s => /\.pem$/.test(s))
+    .map(s => fs.readFileSync(`${__dirname}/ssl/${s}`))
+  )
+}
 
 function pathToExt(path) {
   const m = /(\.\w{1,4})$/.exec(path)
@@ -72,11 +79,23 @@ function doDownload(urlString, callback) {
           debug(`Streaming to ${filename}`)
 
           res.pipe(fs.createWriteStream(filename))
-            .on('error', err => callback(err)) // TODO think through errors
+            .on('error', callback) // TODO think through errors
+            .on('finish', callback)
         })
       })
-      .on('error', err => callback(err))
+      .on('error', callback)
   })
 }
 
-doDownload(process.argv[2])
+allowMissingIntermediateSslCertificates()
+
+const urls = process.argv.slice(2)
+function step() {
+  if (urls.length === 0) return
+
+  doDownload(urls.shift(), err => {
+    if (err) throw err
+    process.nextTick(step)
+  })
+}
+step()
