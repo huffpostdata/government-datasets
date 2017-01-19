@@ -1,0 +1,21 @@
+{
+  "name": "government-datasets",
+  "version": "1.0.0",
+  "description": "HuffPost-controlled copies of government datasets, published on .gov URLs in the public domain",
+  "repository": {
+    "type": "git",
+    "url": "https://git.huffpo.net/huffpostdata/government-datasets.git"
+  },
+  "author": "Adam Hooper <adam.hooper@huffingtonpost.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "content-disposition": "^0.5.2",
+    "debug": "^2.6.0",
+    "mime-types": "^2.1.14",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

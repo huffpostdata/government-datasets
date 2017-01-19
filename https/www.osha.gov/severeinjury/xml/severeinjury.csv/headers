@@ -1,0 +1,16 @@
+GET https://www.osha.gov/severeinjury/xml/severeinjury.csv
+
+
+
+< Status 200 OK
+< Content-Type: text/plain
+< Content-Language: en
+< Server: Oracle-HTTP-Server-11g Oracle-Web-Cache-11g/11.1.1.9.0 (TN;ecid=2560633733154583,0:1)
+< Cache-Control: max-age=0
+< Date: Thu, 19 Jan 2017 00:11:15 GMT
+< Transfer-Encoding: chunked
+< Connection: close
+< Connection: Transfer-Encoding
+< Set-Cookie: Apache=69.31.33.196.1484784674463981; path=/
+
+wrote body.txt
