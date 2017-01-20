@@ -1,0 +1,19 @@
+GET https://wdr.doleta.gov/research/FullText_Documents/ETAOP_2015-05_B.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 15 Oct 2015 15:53:53 GMT
+< Accept-Ranges: bytes
+< ETag: "e434ddb0617d11:0"
+< Server: Microsoft-IIS/7.5
+< X-Powered-By: ASP.NET
+< Date: Fri, 20 Jan 2017 22:19:00 GMT
+< Connection: close
+< Content-Length: 4184208
+< Set-Cookie: BIGipServerLTM_p_WDR_Prod_URL_OLD=!U2OW9Ug5Je32XLDZUlGZZCjJRr65DjYjl8Z8K27b/ILv/HTJfsTkWdUiPibLE/6Bw7KiMz/3C2eumkU=;Path=/;Version=1;Secure;Httponly
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Vary: Accept-Encoding
+
+wrote body.pdf

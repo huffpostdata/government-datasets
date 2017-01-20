@@ -81,3 +81,6 @@ https/www.dol.gov/asp/evaluation/completed-studies/2013-2014-scholar-programs/20
 https/www.dol.gov/asp/evaluation/completed-studies/2013-2014-scholar-programs/2013-2014_DOL_Scholars_Paper_Series_Sojourner_Chapter.pdf/body.pdf filter=lfs diff=lfs merge=lfs -text
 https/www.dol.gov/asp/evaluation/completed-studies/2013-2014-scholar-programs/2013-2014_DOL_Scholars_Paper_Series_Full_Report.pdf/body.pdf filter=lfs diff=lfs merge=lfs -text
 https/www.dol.gov/asp/evaluation/reports/FLSAPaperSeries.pdf/body.pdf filter=lfs diff=lfs merge=lfs -text
+https/wdr.doleta.gov/research/FullText_Documents/ETAOP_2015-05_A.pdf/body.pdf filter=lfs diff=lfs merge=lfs -text
+https/wdr.doleta.gov/research/FullText_Documents/ETAOP_2015-07.pdf/body.pdf filter=lfs diff=lfs merge=lfs -text
+https/wdr.doleta.gov/research/FullText_Documents/ETAOP_2015-05_B.pdf/body.pdf filter=lfs diff=lfs merge=lfs -text

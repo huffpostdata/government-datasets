@@ -31,7 +31,17 @@ function headerFileToMeta(baseDir, schema, headersPath) {
 }
 
 function compareIndexEntries(a, b) {
-  return a.type.localeCompare(b.type) || a.name.localeCompare(b.name)
+  if (a.type !== b.type) {
+    return a.type === 'directory' ? -1 : 1
+  }
+
+  if (a.name === b.name) return 0
+
+  if ((a.name === null) !== (b.name === null)) {
+    return a.name === null ? -1 : 1;
+  }
+
+  return a.name.localeCompare(b.name)
 }
 
 // Reads `dir` recursively, looking for {header,body.*} pairs.
