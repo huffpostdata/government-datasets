@@ -16,21 +16,14 @@ main {
   height: 100%;
 }
 
-nav.tree {
-  width: 30%;
-  color: #999;
-  height: 100%;
-  overflow: auto;
-  margin-right: 1rem;
-}
-
 article {
-  flex: 1 1 auto;
+  width: 70%;
 	display: flex;
 }
 
 article>div {
 	flex: 1 1 auto;
+  width: 100%;
 }
 
 article>div.html iframe {
@@ -40,10 +33,39 @@ article>div.html iframe {
 	height: 100%;
 }
 
+article>div.pdf {
+  display: flex;
+  flex-direction: column;
+}
+
+article>div.pdf embed {
+  width: 100%;
+  flex: 1 1 auto;
+}
+
+p.source {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+nav.tree {
+  box-sizing: border-box;
+  width: 30%;
+  color: #999;
+  height: 100%;
+  overflow: auto;
+  margin-right: 1rem;
+  line-height: 1.5;
+  font-size: .9rem;
+  white-space: nowrap;
+}
+
 nav.tree ul {
   list-style: none;
   margin: 0;
-  padding: 0 0 .25rem 1rem;
+  padding: 0 0 .25rem .75rem;
 }
 
 nav.tree span.name {
@@ -73,7 +95,9 @@ nav.tree
 
       </nav>
       <article>
-        <iframe src="about:blank"></iframe>
+        <div class="instructions">
+          <p>Select a file on the left to view it here</p>
+        </div>
       </article>
     </main>
     <script>
@@ -156,6 +180,20 @@ function showFileHtml(file) {
   xhr.send();
 }
 
+function showFilePdf(file) {
+  var article = document.querySelector('article');
+  var url = file.schema + '://' + file.path.replace(/\/body(\.\w+)?$/, '');
+  var copyUrl = file.schema + '/' + file.path;
+
+  article.innerHTML = [
+    '<div class="pdf">',
+      '<h3>', escapeHtml(file.name), '</h3>',
+      '<p class="source">Downloaded from: <a href="', escapeHtml(url), '">', escapeHtml(url), '</a></p>',
+      '<embed type="application/pdf" src="', escapeHtml(copyUrl), '">',
+    '</div>'
+  ].join('');
+}
+
 function showFileDefault(file) {
   var article = document.querySelector('article');
   var url = file.schema + '://' + file.path.replace(/\/body(\.\w+)?$/, '');
@@ -171,9 +209,12 @@ function showFileDefault(file) {
 }
 
 function showFile(file) {
-  switch (file.contentType.split(/;/)[0]) {
-    case 'text/html': return showFileHtml(file)
-    default: return showFileDefault(file)
+  if (/^text\/html/.test(file.contentType)) {
+    return showFileHtml(file);
+  } else if (/^application\/(x-)?pdf/.test(file.contentType) || /\.pdf$/i.test(file.name)) {
+    return showFilePdf(file);
+  } else {
+    return showFileDefault(file);
   }
 }
 
