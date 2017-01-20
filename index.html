@@ -139,7 +139,7 @@ function onClickTree(ev) {
 }
 
 function showFileHtml(file) {
-  var url = '/' + file.schema + '/' + file.path;
+  var url = file.schema + '/' + file.path;
   var xhr = new XMLHttpRequest();
 
   xhr.onload = function() {
@@ -159,7 +159,7 @@ function showFileHtml(file) {
 function showFileDefault(file) {
   var article = document.querySelector('article');
   var url = file.schema + '://' + file.path.replace(/\/body(\.\w+)?$/, '');
-  var copyUrl = '/' + file.schema + '/' + file.path;
+  var copyUrl = file.schema + '/' + file.path;
 
   article.innerHTML = [
     '<div class="not-rendered">',
