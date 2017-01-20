@@ -27,6 +27,10 @@ function pathToExt(path) {
 }
 
 function contentTypeToExt(s) {
+  const mimeExt = mime.extension(s)
+
+  if (mimeExt === false) return false
+
   const ret = `.${mime.extension(s)}`
   return ret === '.bin' ? '' : ret
 }

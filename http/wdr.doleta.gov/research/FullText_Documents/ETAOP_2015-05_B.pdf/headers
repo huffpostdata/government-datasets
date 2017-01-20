@@ -8,4 +8,4 @@ GET http://wdr.doleta.gov/research/FullText_Documents/ETAOP_2015-05_B.pdf
 < Connection: close
 < Content-Length: 0
 
-wrote body.false
+wrote body.pdf
