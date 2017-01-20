@@ -29,10 +29,9 @@ function pathToExt(path) {
 function contentTypeToExt(s) {
   const mimeExt = mime.extension(s)
 
-  if (mimeExt === false) return false
+  if (mimeExt === false || mimeExt === 'bin') return false
 
-  const ret = `.${mime.extension(s)}`
-  return ret === '.bin' ? '' : ret
+  return '.' + mimeExt
 }
 
 function contentDispositionToExt(s) {
@@ -77,7 +76,9 @@ function doDownload(urlString, callback) {
           `wrote ${basename}`
         ].join('\r\n\r\n')
 
-        fs.writeFile(path.join(dirname, 'headers'), meta, err => {
+        const headerFilename = path.join(dirname, 'headers')
+        debug(`Dumping ${headerFilename}`)
+        fs.writeFile(headerFilename, meta, err => {
           if (err) callback(err) // TODO think through errors
 
           debug(`Streaming to ${filename}`)

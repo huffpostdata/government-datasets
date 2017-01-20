@@ -8,4 +8,4 @@ GET http://wdr.doleta.gov/research/keyword.cfm?fuseaction=dsp_resultDetails&pub_
 < Connection: close
 < Content-Length: 0
 
-wrote body.false
+wrote body.cfm

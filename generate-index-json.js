@@ -34,29 +34,6 @@ function compareIndexEntries(a, b) {
   return a.type.localeCompare(b.type) || a.name.localeCompare(b.name)
 }
 
-function cleanIndexEntry(entry) {
-  // Not recursive -- we apply this to each node within our recursion step
-  switch (entry.type) {
-    case 'directory':
-      if (entry.nFiles === 1) {
-        // A directory with a file child becomes a file
-        // Assumes there are no nested directories -- which is true because we
-        // already applied this step to children
-        const file = entry.children[0]
-        return Object.assign({}, file, {
-          name: file.name === null ? entry.name : `${entry.name}/${file.name}`,
-        })
-      }
-
-      const index = entry.children.find(c => c.type === 'file' && c.name === null)
-      if (index) {
-        index.name = '<index>';
-      }
-  }
-
-  return entry
-}
-
 // Reads `dir` recursively, looking for {header,body.*} pairs.
 //
 // Returns an Array of:
@@ -110,14 +87,107 @@ function readIndex(baseDir, schema, dir) {
 
   ret.sort(compareIndexEntries)
 
-  return ret.map(cleanIndexEntry)
+  return ret
+}
+
+// Merges directory structures recursively
+//
+// If a file exists in both a and b, the file in b will be ignored
+function mergeIndexes(a, b) {
+  const ret = []
+
+  let i = 0
+  let j = 0
+
+  while (i < a.length || j < b.length) {
+    if (i === a.length) {
+      ret.splice(ret.length, 0, ...b.slice(j))
+      j = b.length
+    } else if (j === b.length) {
+      ret.splice(ret.length, 0, ...a.slice(i))
+      i = a.length
+    } else {
+      const c = compareIndexEntries(a[i], b[j])
+
+      if (c < 0) {
+        ret.push(a[i]);
+        i += 1;
+      } else if (c === 0) {
+        // a[i] and b[j] have the same type (otherwises c !== 0)
+        if (a[i].type === 'directory') {
+          ret.push(Object.assign({}, a[i], {
+            children: mergeIndexes(a[i].children, b[j].children),
+            nFiles: a[i].nFiles + b[j].nFiles,
+            size: a[i].size + b[j].size
+          }))
+        } else {
+          ret.push(a[i]) // conflicting filenames
+        }
+        i += 1;
+        j += 1;
+      } else {
+        ret.push(b[j]);
+        j += 1;
+      }
+    }
+  }
+
+  return ret
+}
+
+// Raises each leaf entry that has no siblings.
+//
+// Each dir/file becomes a file.
+//
+// This is crucial because on the filesystem, directories and files look the
+// same at a glance: we have to read a `headers` file just to spot the
+// difference. So the original indexing gives all files the name `null`. This
+// step corrects that error.
+function cleanIndex(index) {
+  return index.map(cleanIndexEntry)
+}
+
+// Used by cleanIndex()
+//
+// A "clean" index entry satisfies these constraints:
+// * If the entry is a file, its `name` may be `null`
+// * If the entry is a directory, it contains >1 files
+// * If the entry is a directory, it contains no files with `name === null`
+function cleanIndexEntry(entry) {
+  if (entry.type === 'directory') {
+    // post-order recursion: clean the child nodes, so we can assume all child
+    // nodes are clean
+    const cleanChildren = cleanIndex(entry.children)
+
+    // A directory must contain >1 files; otherwise, put a file instead. (The
+    // file will never have a `null` name)
+    if (entry.nFiles === 1) {
+      const file = cleanChildren[0]
+      return Object.assign({}, file, {
+        name: file.name === null ? entry.name : `${entry.name}/${file.name}`
+      })
+    }
+
+    // No children can have `null` name: put `"<index>"` instead
+    return Object.assign({}, entry, { children: cleanChildren.map(c => {
+      if (c.name === null) {
+        return Object.assign({}, c, { name: '<index>' })
+      } else {
+        return c
+      }
+    })})
+  } else {
+    return entry
+  }
 }
 
 function main() {
   const httpsIndex = readIndex(`${__dirname}/https`, 'https', '')
-  const index = httpsIndex
+  const httpIndex = readIndex(`${__dirname}/http`, 'http', '')
+  const mergedIndex = mergeIndexes(httpsIndex, httpIndex)
+  const cleanedIndex = cleanIndex(mergedIndex)
 
-  const indexJson = JSON.stringify(index)
+  const indexJson = JSON.stringify(cleanedIndex)
   fs.writeFileSync(`${__dirname}/index.json`, indexJson, 'utf-8')
 }
 
