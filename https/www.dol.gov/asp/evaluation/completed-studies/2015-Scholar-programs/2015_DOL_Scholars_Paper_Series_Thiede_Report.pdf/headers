@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/2015-Scholar-programs/2015_DOL_Scholars_Paper_Series_Thiede_Report.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 05 Jan 2016 16:15:08 GMT
+< Accept-Ranges: bytes
+< ETag: "08ea33ed447d11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 637642
+< Date: Fri, 20 Jan 2017 20:21:47 GMT
+< Connection: close
+
+wrote body.pdf

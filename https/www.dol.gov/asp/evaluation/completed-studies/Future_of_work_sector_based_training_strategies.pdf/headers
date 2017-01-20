@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Future_of_work_sector_based_training_strategies.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 30 Mar 2016 19:51:09 GMT
+< Accept-Ranges: bytes
+< ETag: "c1d89e81bd8ad11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 219455
+< Date: Fri, 20 Jan 2017 20:21:58 GMT
+< Connection: close
+
+wrote body.pdf

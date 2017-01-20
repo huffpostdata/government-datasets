@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/2015-Scholar-programs/2015_DOL_Scholars_Paper_Series_Cortes_Report.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 13 Jan 2016 17:25:58 GMT
+< Accept-Ranges: bytes
+< ETag: "9b989077274ed11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 655533
+< Date: Fri, 20 Jan 2017 20:21:45 GMT
+< Connection: close
+
+wrote body.pdf

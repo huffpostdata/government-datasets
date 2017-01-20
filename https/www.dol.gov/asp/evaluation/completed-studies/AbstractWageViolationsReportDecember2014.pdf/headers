@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/AbstractWageViolationsReportDecember2014.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Fri, 05 Dec 2014 15:35:13 GMT
+< Accept-Ranges: bytes
+< ETag: "2f30610a110d01:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 151631
+< Date: Fri, 20 Jan 2017 20:22:29 GMT
+< Connection: close
+
+wrote body.pdf

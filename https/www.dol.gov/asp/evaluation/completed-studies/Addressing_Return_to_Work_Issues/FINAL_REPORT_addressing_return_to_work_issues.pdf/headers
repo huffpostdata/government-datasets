@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Addressing_Return_to_Work_Issues/FINAL_REPORT_addressing_return_to_work_issues.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:14:09 GMT
+< Accept-Ranges: bytes
+< ETag: "5c8f682b1c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1147708
+< Date: Fri, 20 Jan 2017 20:22:56 GMT
+< Connection: close
+
+wrote body.pdf

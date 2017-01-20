@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Future_of_Work_Paper_Series.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 30 Mar 2016 19:01:16 GMT
+< Accept-Ranges: bytes
+< ETag: "ef6b7789b68ad11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 5299908
+< Date: Fri, 20 Jan 2017 20:21:50 GMT
+< Connection: close
+
+wrote body.pdf

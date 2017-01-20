@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/The_United_Services_Military_Apprenticeship_Program_(USMAP).pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 04 Nov 2015 20:57:42 GMT
+< Accept-Ranges: bytes
+< ETag: "2f169724317d11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1102168
+< Date: Fri, 20 Jan 2017 20:22:06 GMT
+< Connection: close
+
+wrote body.pdf

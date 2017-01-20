@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Improving_Americas_Workforce_Through_Enhanced_Collaboration_between_the_Public_Workforce_System_and%20_Community_Colleges/FINAL_REPORT_improving_america_workforce_through_enhanced_collaboration.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:15:34 GMT
+< Accept-Ranges: bytes
+< ETag: "28c3d5e1c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 829613
+< Date: Fri, 20 Jan 2017 20:23:17 GMT
+< Connection: close
+
+wrote body.pdf

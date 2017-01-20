@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/ArmyUCX_ImplementReport_Final.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 11 Oct 2016 16:05:23 GMT
+< Accept-Ranges: bytes
+< ETag: "cc18cc45d923d21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1983073
+< Date: Fri, 20 Jan 2017 20:21:43 GMT
+< Connection: close
+
+wrote body.pdf

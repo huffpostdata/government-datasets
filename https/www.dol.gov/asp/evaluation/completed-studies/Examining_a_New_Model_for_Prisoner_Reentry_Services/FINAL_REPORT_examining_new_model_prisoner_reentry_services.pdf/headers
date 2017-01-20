@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Examining_a_New_Model_for_Prisoner_Reentry_Services/FINAL_REPORT_examining_new_model_prisoner_reentry_services.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:14:23 GMT
+< Accept-Ranges: bytes
+< ETag: "ec9187331c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1005510
+< Date: Fri, 20 Jan 2017 20:23:18 GMT
+< Connection: close
+
+wrote body.pdf

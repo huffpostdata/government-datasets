@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Lit_Review_Older_Workers_Labor_force.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 28 Dec 2016 22:25:57 GMT
+< Accept-Ranges: bytes
+< ETag: "5348665c5961d21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1474312
+< Date: Fri, 20 Jan 2017 20:21:23 GMT
+< Connection: close
+
+wrote body.pdf

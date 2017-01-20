@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Workers_Rights_Access_Assertion_and_Knowledge_in_Mining_Workplace/FINAL_REPORT_workers_rights_access_assertion_knowledge_mining_workplace.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:15:53 GMT
+< Accept-Ranges: bytes
+< ETag: "f4295c691c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1371961
+< Date: Fri, 20 Jan 2017 20:22:53 GMT
+< Connection: close
+
+wrote body.pdf

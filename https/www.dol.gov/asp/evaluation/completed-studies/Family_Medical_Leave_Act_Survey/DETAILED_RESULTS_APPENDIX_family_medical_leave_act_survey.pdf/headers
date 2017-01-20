@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Family_Medical_Leave_Act_Survey/DETAILED_RESULTS_APPENDIX_family_medical_leave_act_survey.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:14:44 GMT
+< Accept-Ranges: bytes
+< ETag: "a48628401c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 520719
+< Date: Fri, 20 Jan 2017 20:23:11 GMT
+< Connection: close
+
+wrote body.pdf

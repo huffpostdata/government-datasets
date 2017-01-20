@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Paid_Family_Leave_Fathers_Leave_Taking_and_Leave_Sharing_in_Dual_Earner_Households.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 18 Nov 2015 16:32:05 GMT
+< Accept-Ranges: bytes
+< ETag: "d26529a91e22d11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 553054
+< Date: Fri, 20 Jan 2017 20:22:05 GMT
+< Connection: close
+
+wrote body.pdf

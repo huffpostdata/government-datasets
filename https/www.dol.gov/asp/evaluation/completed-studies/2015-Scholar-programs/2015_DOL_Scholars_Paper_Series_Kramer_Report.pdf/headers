@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/2015-Scholar-programs/2015_DOL_Scholars_Paper_Series_Kramer_Report.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 17 Feb 2016 22:01:08 GMT
+< Accept-Ranges: bytes
+< ETag: "365b96b4ce69d11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1145677
+< Date: Fri, 20 Jan 2017 20:21:46 GMT
+< Connection: close
+
+wrote body.pdf

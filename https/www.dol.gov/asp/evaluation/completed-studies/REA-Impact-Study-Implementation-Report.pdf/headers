@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/REA-Impact-Study-Implementation-Report.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 18 Jan 2017 21:31:29 GMT
+< Accept-Ranges: bytes
+< ETag: "c363c3bd271d21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 3158823
+< Date: Fri, 20 Jan 2017 20:20:59 GMT
+< Connection: close
+
+wrote body.pdf

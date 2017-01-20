@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Using_Administrative_Data_to_Address_Federal_Contractor_Violations_of_Equal_Employment_Opportunity_Law/ISSUE_BRIEF_using_administrative_data_address_federal_contractor_Violations_equal_employment_law.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Mon, 18 Aug 2014 17:38:38 GMT
+< Accept-Ranges: bytes
+< ETag: "023393ebbbcf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 373200
+< Date: Fri, 20 Jan 2017 20:22:45 GMT
+< Connection: close
+
+wrote body.pdf

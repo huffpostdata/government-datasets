@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/UCP_State_Decisions_to_Adopt.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 13 Apr 2016 18:48:35 GMT
+< Accept-Ranges: bytes
+< ETag: "2ec98415b595d11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 2606261
+< Date: Fri, 20 Jan 2017 20:22:04 GMT
+< Connection: close
+
+wrote body.pdf

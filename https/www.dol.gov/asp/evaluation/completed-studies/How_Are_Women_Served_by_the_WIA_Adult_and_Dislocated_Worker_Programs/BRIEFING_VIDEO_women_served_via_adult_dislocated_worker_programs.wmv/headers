@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/How_Are_Women_Served_by_the_WIA_Adult_and_Dislocated_Worker_Programs/BRIEFING_VIDEO_women_served_via_adult_dislocated_worker_programs.wmv
+
+
+
+< Status 200 OK
+< Content-Type: video/x-ms-wmv
+< Last-Modified: Wed, 27 Aug 2014 14:15:18 GMT
+< Accept-Ranges: bytes
+< ETag: "90e48d541c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 30729731
+< Date: Fri, 20 Jan 2017 20:22:58 GMT
+< Connection: close
+
+wrote body.wmv

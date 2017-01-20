@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/IMPAQ_Scorecards_Report_2014-06-02.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 19 Nov 2014 23:15:47 GMT
+< Accept-Ranges: bytes
+< ETag: "1f7c60c04e4d01:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 2274317
+< Date: Fri, 20 Jan 2017 20:22:39 GMT
+< Connection: close
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/WomenVeteranEconomicandEmploymentCharacteristics.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 24 Feb 2016 23:00:09 GMT
+< Accept-Ranges: bytes
+< ETag: "17e3df1b576fd11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1296161
+< Date: Fri, 20 Jan 2017 20:22:05 GMT
+< Connection: close
+
+wrote body.pdf

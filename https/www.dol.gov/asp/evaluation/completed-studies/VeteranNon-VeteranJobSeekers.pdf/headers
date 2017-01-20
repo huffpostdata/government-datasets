@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/VeteranNon-VeteranJobSeekers.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 12 May 2015 16:56:57 GMT
+< Accept-Ranges: bytes
+< ETag: "a6a7dca7d48cd01:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 2431633
+< Date: Fri, 20 Jan 2017 20:22:09 GMT
+< Connection: close
+
+wrote body.pdf

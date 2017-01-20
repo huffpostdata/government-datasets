@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/COBRA_FinalReport_toDOL.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 14 Apr 2015 13:16:55 GMT
+< Accept-Ranges: bytes
+< ETag: "77b18447b576d01:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1256007
+< Date: Fri, 20 Jan 2017 20:22:07 GMT
+< Connection: close
+
+wrote body.pdf

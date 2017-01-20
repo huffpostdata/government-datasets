@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/The_Emergency_Unemployment_Compensation_Act/FINAL_REPORT_emergency_unemployment_compensation_act.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:15:39 GMT
+< Accept-Ranges: bytes
+< ETag: "46a2d6601c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 490917
+< Date: Fri, 20 Jan 2017 20:23:18 GMT
+< Connection: close
+
+wrote body.pdf

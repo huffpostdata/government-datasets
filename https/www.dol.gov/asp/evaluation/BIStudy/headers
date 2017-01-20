@@ -1,0 +1,14 @@
+GET https://www.dol.gov/asp/evaluation/BIStudy/
+
+
+
+< Status 200 OK
+< Cache-Control: private
+< Content-Length: 30671
+< Content-Type: text/html
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Date: Fri, 20 Jan 2017 20:21:44 GMT
+< Connection: close
+
+wrote body.html

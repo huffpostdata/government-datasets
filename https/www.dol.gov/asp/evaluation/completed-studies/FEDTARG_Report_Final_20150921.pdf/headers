@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/FEDTARG_Report_Final_20150921.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 22 Sep 2015 15:07:08 GMT
+< Accept-Ranges: bytes
+< ETag: "46dbd15948f5d01:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1716614
+< Date: Fri, 20 Jan 2017 20:22:06 GMT
+< Connection: close
+
+wrote body.pdf

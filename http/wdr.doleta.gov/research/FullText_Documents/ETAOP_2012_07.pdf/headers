@@ -1,0 +1,11 @@
+GET http://wdr.doleta.gov/research/FullText_Documents/ETAOP_2012_07.pdf
+
+
+
+< Status 302 Found
+< Location: https://wdr.doleta.gov/research/FullText_Documents/ETAOP_2012_07.pdf
+< Server: DOLADC
+< Connection: close
+< Content-Length: 0
+
+wrote body.false

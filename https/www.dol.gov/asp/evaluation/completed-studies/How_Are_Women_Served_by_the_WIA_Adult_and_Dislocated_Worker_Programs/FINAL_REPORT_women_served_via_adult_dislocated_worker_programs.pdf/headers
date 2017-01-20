@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/How_Are_Women_Served_by_the_WIA_Adult_and_Dislocated_Worker_Programs/FINAL_REPORT_women_served_via_adult_dislocated_worker_programs.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:15:24 GMT
+< Accept-Ranges: bytes
+< ETag: "a4a0581c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 2405628
+< Date: Fri, 20 Jan 2017 20:22:58 GMT
+< Connection: close
+
+wrote body.pdf

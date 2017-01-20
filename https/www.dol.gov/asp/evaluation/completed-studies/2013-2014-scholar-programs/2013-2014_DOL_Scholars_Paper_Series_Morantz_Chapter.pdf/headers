@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/2013-2014-scholar-programs/2013-2014_DOL_Scholars_Paper_Series_Morantz_Chapter.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 10 Dec 2014 22:43:06 GMT
+< Accept-Ranges: bytes
+< ETag: "efc64faaca14d01:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1681967
+< Date: Fri, 20 Jan 2017 20:22:28 GMT
+< Connection: close
+
+wrote body.pdf

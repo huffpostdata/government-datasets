@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/FirstResponders_SFFDCase_Study.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 28 Dec 2016 16:17:18 GMT
+< Accept-Ranges: bytes
+< ETag: "07b2dc2561d21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 554335
+< Date: Fri, 20 Jan 2017 20:21:23 GMT
+< Connection: close
+
+wrote body.pdf

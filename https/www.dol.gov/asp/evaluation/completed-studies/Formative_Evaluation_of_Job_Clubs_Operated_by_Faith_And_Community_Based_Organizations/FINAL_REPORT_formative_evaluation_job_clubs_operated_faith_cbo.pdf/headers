@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Formative_Evaluation_of_Job_Clubs_Operated_by_Faith_And_Community_Based_Organizations/FINAL_REPORT_formative_evaluation_job_clubs_operated_faith_cbo.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:15:07 GMT
+< Accept-Ranges: bytes
+< ETag: "eea6194e1c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 877511
+< Date: Fri, 20 Jan 2017 20:22:38 GMT
+< Connection: close
+
+wrote body.pdf

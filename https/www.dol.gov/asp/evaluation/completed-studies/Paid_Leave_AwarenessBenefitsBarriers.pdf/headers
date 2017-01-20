@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Paid_Leave_AwarenessBenefitsBarriers.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 21 Jul 2016 14:00:01 GMT
+< Accept-Ranges: bytes
+< ETag: "c2877c2c58e3d11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 1596985
+< Date: Fri, 20 Jan 2017 20:21:38 GMT
+< Connection: close
+
+wrote body.pdf

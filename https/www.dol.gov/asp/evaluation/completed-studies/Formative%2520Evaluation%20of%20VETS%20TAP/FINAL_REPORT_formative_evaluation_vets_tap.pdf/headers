@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Formative%20Evaluation%20of%20VETS%20TAP/FINAL_REPORT_formative_evaluation_vets_tap.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:15:06 GMT
+< Accept-Ranges: bytes
+< ETag: "e4c0914d1c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 2287429
+< Date: Fri, 20 Jan 2017 20:22:52 GMT
+< Connection: close
+
+wrote body.pdf

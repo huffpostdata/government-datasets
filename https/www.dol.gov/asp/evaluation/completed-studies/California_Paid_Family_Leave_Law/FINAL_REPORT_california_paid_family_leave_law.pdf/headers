@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/California_Paid_Family_Leave_Law/FINAL_REPORT_california_paid_family_leave_law.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:14:12 GMT
+< Accept-Ranges: bytes
+< ETag: "12b8f62c1c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 172241
+< Date: Fri, 20 Jan 2017 20:22:37 GMT
+< Connection: close
+
+wrote body.pdf

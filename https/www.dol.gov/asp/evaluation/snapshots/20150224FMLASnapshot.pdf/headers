@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/snapshots/20150224FMLASnapshot.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 28 Apr 2015 20:22:48 GMT
+< Accept-Ranges: bytes
+< ETag: "09cca17f181d01:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 392092
+< Date: Fri, 20 Jan 2017 20:23:05 GMT
+< Connection: close
+
+wrote body.pdf

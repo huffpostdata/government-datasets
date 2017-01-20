@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Workers_Rights_Access_Assertion_and_Knowledge_Study/FINAL_REPORT_workers_rights_access_assertion_knowledge_study.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:15:58 GMT
+< Accept-Ranges: bytes
+< ETag: "6ea27f6c1c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 3373001
+< Date: Fri, 20 Jan 2017 20:22:40 GMT
+< Connection: close
+
+wrote body.pdf

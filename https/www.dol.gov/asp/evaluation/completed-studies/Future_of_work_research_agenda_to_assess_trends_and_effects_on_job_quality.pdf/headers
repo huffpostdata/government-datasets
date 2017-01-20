@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Future_of_work_research_agenda_to_assess_trends_and_effects_on_job_quality.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 30 Mar 2016 19:26:45 GMT
+< Accept-Ranges: bytes
+< ETag: "2b799518ba8ad11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 481960
+< Date: Fri, 20 Jan 2017 20:21:53 GMT
+< Connection: close
+
+wrote body.pdf

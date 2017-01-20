@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Formative_Evaluation_of_the_Homeless_Veterans_Reintegration_Program_Report.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 21 Sep 2016 15:04:43 GMT
+< Accept-Ranges: bytes
+< ETag: "8caace7b1914d21:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 2303812
+< Date: Fri, 20 Jan 2017 20:21:36 GMT
+< Connection: close
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/ARRA_UC_Rept_Addtl_Benefits_GR.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 02 Mar 2016 16:10:47 GMT
+< Accept-Ranges: bytes
+< ETag: "69c2e7149e74d11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 2270087
+< Date: Fri, 20 Jan 2017 20:21:58 GMT
+< Connection: close
+
+wrote body.pdf

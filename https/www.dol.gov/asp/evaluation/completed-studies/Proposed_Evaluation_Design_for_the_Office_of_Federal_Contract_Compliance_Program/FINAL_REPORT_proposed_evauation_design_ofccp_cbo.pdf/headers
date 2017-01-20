@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Proposed_Evaluation_Design_for_the_Office_of_Federal_Contract_Compliance_Program/FINAL_REPORT_proposed_evauation_design_ofccp_cbo.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 27 Aug 2014 14:15:38 GMT
+< Accept-Ranges: bytes
+< ETag: "f82f83601c2cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 862522
+< Date: Fri, 20 Jan 2017 20:22:44 GMT
+< Connection: close
+
+wrote body.pdf

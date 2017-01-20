@@ -1,0 +1,11 @@
+GET http://wdr.doleta.gov/research/keyword.cfm?fuseaction=dsp_resultDetails&pub_id=2569&mp=y
+
+
+
+< Status 302 Found
+< Location: https://wdr.doleta.gov/research/keyword.cfm?fuseaction=dsp_resultDetails&pub_id=2569&mp=y
+< Server: DOLADC
+< Connection: close
+< Content-Length: 0
+
+wrote body.false

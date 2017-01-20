@@ -1,0 +1,16 @@
+GET https://www.dol.gov/asp/evaluation/completed-studies/Future_of_work_the_implications_for_workplace_health_and_safety.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 30 Mar 2016 19:29:35 GMT
+< Accept-Ranges: bytes
+< ETag: "12f9347eba8ad11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Length: 554313
+< Date: Fri, 20 Jan 2017 20:21:52 GMT
+< Connection: close
+
+wrote body.pdf
