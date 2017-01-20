@@ -235,7 +235,7 @@ function renderApp(indexJson) {
             '<span class="name"><strong>', escapeHtml(itemJson.name), '</strong>/</span>',
             '<span class="sizes">',
               '<span class="n-files">', itemJson.nFiles, '</span>',
-              '/',
+              ' - ',
               '<span class="size">', formatSize(itemJson.size), '</span>',
             '</span>',
             '<ul>', renderTreeChildren(itemJson.children), '</ul>',
