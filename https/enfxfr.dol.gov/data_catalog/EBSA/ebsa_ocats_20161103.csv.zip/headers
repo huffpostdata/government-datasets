@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/EBSA/ebsa_ocats_20161103.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 20:55:14 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Thu, 22 Dec 2016 19:09:10 GMT
+< ETag: "60180-316a9-544440113213c"
+< Accept-Ranges: bytes
+< Content-Length: 202409
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

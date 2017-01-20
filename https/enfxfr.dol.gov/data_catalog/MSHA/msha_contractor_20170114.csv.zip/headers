@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/MSHA/msha_contractor_20170114.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 20:56:40 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Tue, 17 Jan 2017 16:45:07 GMT
+< ETag: "6012d-e51b7-5464d05d5a5f3"
+< Accept-Ranges: bytes
+< Content-Length: 938423
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

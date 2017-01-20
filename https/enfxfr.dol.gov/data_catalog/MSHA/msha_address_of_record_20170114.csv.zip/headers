@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/MSHA/msha_address_of_record_20170114.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 20:56:25 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Tue, 17 Jan 2017 16:45:05 GMT
+< ETag: "60129-3aa199-5464d05b1e1af"
+< Accept-Ranges: bytes
+< Content-Length: 3842457
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/OSHA/osha_violation_gen_duty_std_20170119.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 22:59:11 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Thu, 19 Jan 2017 13:15:08 GMT
+< ETag: "60160-143830c-5467252820c94"
+< Accept-Ranges: bytes
+< Content-Length: 21201676
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

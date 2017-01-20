@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/OSHA/osha_related_activity_20170119.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 22:58:35 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Thu, 19 Jan 2017 13:15:06 GMT
+< ETag: "60158-af9f6b-5467252724d4e"
+< Accept-Ranges: bytes
+< Content-Length: 11509611
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

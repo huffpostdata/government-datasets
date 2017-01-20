@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/MSHA/msha_operator_history_20170114.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 20:57:29 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Tue, 17 Jan 2017 16:45:16 GMT
+< ETag: "60142-32f7fd-5464d0657497f"
+< Accept-Ranges: bytes
+< Content-Length: 3340285
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

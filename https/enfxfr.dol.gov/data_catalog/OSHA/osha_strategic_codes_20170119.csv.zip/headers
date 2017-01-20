@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/OSHA/osha_strategic_codes_20170119.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 22:58:38 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Thu, 19 Jan 2017 13:15:07 GMT
+< ETag: "6015a-8deaa9-546725274a2f7"
+< Accept-Ranges: bytes
+< Content-Length: 9300649
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

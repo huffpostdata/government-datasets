@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/WHD/whd_data_dictionary_20161107.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 22:58:12 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Thu, 22 Dec 2016 22:05:37 GMT
+< ETag: "6016a-a3a-5444678273e6c"
+< Accept-Ranges: bytes
+< Content-Length: 2618
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

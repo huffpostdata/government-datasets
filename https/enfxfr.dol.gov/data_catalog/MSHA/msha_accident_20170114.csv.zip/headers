@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/MSHA/msha_accident_20170114.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 20:56:03 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Tue, 17 Jan 2017 16:45:03 GMT
+< ETag: "60170-52bf14a-5464d058e11b4"
+< Accept-Ranges: bytes
+< Content-Length: 86765898
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

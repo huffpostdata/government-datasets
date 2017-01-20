@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/MSHA/msha_assssd_violation_20170114.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 20:56:27 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Tue, 17 Jan 2017 16:45:06 GMT
+< ETag: "6012b-4ccf76c-5464d05bf4760"
+< Accept-Ranges: bytes
+< Content-Length: 80541548
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/MSHA/msha_cy_cntrctr_emplymnt_20170114.csv.zip
+
+
+
+< Status 200 OK
+< Date: Thu, 19 Jan 2017 20:56:46 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Tue, 17 Jan 2017 16:45:08 GMT
+< ETag: "60134-255492-5464d05db81f3"
+< Accept-Ranges: bytes
+< Content-Length: 2446482
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip
