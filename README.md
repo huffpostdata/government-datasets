@@ -1,4 +1,12 @@
-A selective mirror of the Internet
+government-datasets
+===================
+
+A selective mirror of the Internet.
+
+Browse here: https://pages.git.huffpo.net/huffpostdata/government-datasets/
+
+Filesystem structure
+--------------------
 
 A URL looks like this:
 
