@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs95/9513.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 15 Sep 1998 21:43:12 GMT
+< Accept-Ranges: bytes
+< ETag: "0d819d6f1e0bd1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 21:44:31 GMT
+< Connection: close
+< Content-Length: 1986711
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

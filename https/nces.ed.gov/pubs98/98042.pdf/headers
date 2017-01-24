@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs98/98042.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 18 Feb 1998 16:22:26 GMT
+< Accept-Ranges: bytes
+< ETag: "08d4166893cbd1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 21:16:51 GMT
+< Connection: close
+< Content-Length: 140832
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

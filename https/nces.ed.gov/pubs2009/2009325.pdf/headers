@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2009/2009325.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 24 Jun 2009 13:38:52 GMT
+< Accept-Ranges: bytes
+< ETag: "6389e31cd1f4c91:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:33:06 GMT
+< Connection: close
+< Content-Length: 752650
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

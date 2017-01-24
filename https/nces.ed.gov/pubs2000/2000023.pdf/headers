@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2000/2000023.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Fri, 18 Feb 2000 20:20:16 GMT
+< Accept-Ranges: bytes
+< ETag: "04064914d7abf1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 21:06:31 GMT
+< Connection: close
+< Content-Length: 165746
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

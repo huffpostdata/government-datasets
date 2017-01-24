@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubsearch/index.asp?PubSectionID=1&HasSearched=1&pubspagenum=1&sort=3&pagesize=10000
+
+
+
+< Status 200 OK
+< Cache-Control: private,no-cache
+< Pragma: no-cache
+< Content-Type: text/html
+< Expires: Sun, 22 Jan 2017 20:02:12 GMT
+< Server: Microsoft-IIS/8.0
+< Set-Cookie: ASPSESSIONIDAARCQBCC=MEGHPHKDFNODPDNOAOAOGCFD; path=/
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:02:12 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.html

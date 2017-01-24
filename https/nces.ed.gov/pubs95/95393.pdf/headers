@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs95/95393.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 08 Jan 1998 15:33:06 GMT
+< Accept-Ranges: bytes
+< ETag: "0a55b74a1cbd1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 21:46:35 GMT
+< Connection: close
+< Content-Length: 656011
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

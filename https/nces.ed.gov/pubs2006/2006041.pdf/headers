@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2006/2006041.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Fri, 30 Dec 2005 19:39:28 GMT
+< Accept-Ranges: bytes
+< ETag: "40e924bf78dc61:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:44:26 GMT
+< Connection: close
+< Content-Length: 269355
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

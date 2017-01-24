@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2011/2011172.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 26 Oct 2010 16:24:20 GMT
+< Accept-Ranges: bytes
+< ETag: "f2d19b3e2a75cb1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:25:53 GMT
+< Connection: close
+< Content-Length: 1757367
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

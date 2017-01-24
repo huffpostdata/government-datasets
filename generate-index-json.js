@@ -15,7 +15,6 @@ function headerFileToMeta(baseDir, schema, headersPath) {
   const filename = filenameM[1]
 
   const path = headersPath.replace(/headers$/, '') + filename
-  const size = fs.statSync(`${baseDir}/${path}`).size
 
   const contentTypeM = /^< Content-Type:([^\r]+)$/im.exec(resString)
   const contentType = contentTypeM ? contentTypeM[1].trim() : 'application/octet-stream'
@@ -24,7 +23,6 @@ function headerFileToMeta(baseDir, schema, headersPath) {
     "type": "file",
     "name": null, // we'll build it later
     "contentType": contentType,
-    "size": size,
     "schema": schema,
     "path": path
   }
@@ -51,13 +49,11 @@ function compareIndexEntries(a, b) {
 //     {
 //       "type": "directory",
 //       "name": "xml",
-//       "size": 123145,
 //       "nFiles": 1,
 //       "children": [
 //         "type": "file",
 //         "name": "some-file.csv.zip",
 //         "contentType": "application/octet-stream",
-//         "size": 123145,
 //         "schema": "https",
 //         "path": "www.example.org/xml/some-file.csv.zip/body.zip"
 //       ]
@@ -80,15 +76,13 @@ function readIndex(baseDir, schema, dir) {
     if (stat.isDirectory()) {
       const children = readIndex(baseDir, schema, path) // subdirectories ... and/or sub-files
       const nFiles = children.reduce(((s, c) => s + (c.type === 'directory' ? c.nFiles : 1)), 0)
-      const size = children.reduce(((s, c) => s + c.size), 0)
 
       ret.push({
         type: "directory",
         name: child,
         path: path,
         children: children,
-        nFiles: nFiles,
-        size: size
+        nFiles: nFiles
       })
     } else if (stat.isFile() && child == 'headers') {
       ret.push(headerFileToMeta(baseDir, schema, path))
@@ -127,8 +121,7 @@ function mergeIndexes(a, b) {
         if (a[i].type === 'directory') {
           ret.push(Object.assign({}, a[i], {
             children: mergeIndexes(a[i].children, b[j].children),
-            nFiles: a[i].nFiles + b[j].nFiles,
-            size: a[i].size + b[j].size
+            nFiles: a[i].nFiles + b[j].nFiles
           }))
         } else {
           ret.push(a[i]) // conflicting filenames

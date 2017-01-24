@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs87/87100.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 21 Feb 2007 21:07:07 GMT
+< Accept-Ranges: bytes
+< ETag: "b4638d3efc55c71:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 22:22:32 GMT
+< Connection: close
+< Content-Length: 5574369
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

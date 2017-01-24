@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2012/2012025.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 01 Nov 2011 21:11:46 GMT
+< Accept-Ranges: bytes
+< ETag: "055b4dcda98cc1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:20:41 GMT
+< Connection: close
+< Content-Length: 196425
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

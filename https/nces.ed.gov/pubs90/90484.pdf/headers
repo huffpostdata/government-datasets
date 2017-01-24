@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs90/90484.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Fri, 23 Sep 2005 18:05:15 GMT
+< Accept-Ranges: bytes
+< ETag: "98ccb95969c0c51:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 22:21:26 GMT
+< Connection: close
+< Content-Length: 8482198
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

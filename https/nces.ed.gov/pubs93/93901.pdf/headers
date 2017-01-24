@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs93/93901.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 19 Feb 2002 17:04:33 GMT
+< Accept-Ranges: bytes
+< ETag: "90a3e98067b9c11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 22:02:59 GMT
+< Connection: close
+< Content-Length: 318489
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

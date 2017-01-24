@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs77/77265.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 28 Feb 2002 19:29:54 GMT
+< Accept-Ranges: bytes
+< ETag: "d6fab64c8ec0c11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 22:25:53 GMT
+< Connection: close
+< Content-Length: 4935267
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

@@ -1,0 +1,15 @@
+GET https://nces.ed.gov/pubs2008/2008342.pdf
+
+
+
+< Status 404 Not Found
+< Content-Type: text/html
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:35:45 GMT
+< Connection: close
+< Content-Length: 1245
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.html

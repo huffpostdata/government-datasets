@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs96/96661.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Fri, 11 Sep 1998 17:06:00 GMT
+< Accept-Ranges: bytes
+< ETag: "0c173a6ddbd1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 21:35:02 GMT
+< Connection: close
+< Content-Length: 9294425
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

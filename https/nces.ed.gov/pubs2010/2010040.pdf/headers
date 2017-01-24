@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2010/2010040.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 28 Apr 2010 13:51:13 GMT
+< Accept-Ranges: bytes
+< ETag: "81f7cbddd9e6ca1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:29:54 GMT
+< Connection: close
+< Content-Length: 2699537
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

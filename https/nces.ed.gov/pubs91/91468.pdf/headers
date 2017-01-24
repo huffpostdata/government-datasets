@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs91/91468.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 17 May 2001 17:45:17 GMT
+< Accept-Ranges: bytes
+< ETag: "a0dd6a22f9dec01:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 22:17:38 GMT
+< Connection: close
+< Content-Length: 6190498
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

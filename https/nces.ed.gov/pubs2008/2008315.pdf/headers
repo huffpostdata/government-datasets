@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2008/2008315.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Mon, 17 Mar 2008 18:49:26 GMT
+< Accept-Ranges: bytes
+< ETag: "4ca2e79f5f88c81:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:36:50 GMT
+< Connection: close
+< Content-Length: 339374
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

@@ -81,11 +81,9 @@ nav.tree li.file:hover {
   background: #eee;
 }
 
-nav.tree li.directory>span.sizes, nav.tree li.file>span.size {
+nav.tree li.directory>span.n-files {
   font-size: .8rem;
 }
-
-nav.tree 
 
     </style>
   </head>
@@ -162,8 +160,16 @@ function onClickTree(ev) {
   showFile(entry);
 }
 
+function fileToUrl(file) {
+  return 'http://gov-datasets.huffingtonpost.com.s3.amazonaws.com/' + file.schema + '/' + file.path;
+}
+
+function fileToOriginalUrl(file) {
+  return file.schema + '://' + file.path.replace(/\/body(\.\w+)?$/, '');
+}
+
 function showFileHtml(file) {
-  var url = file.schema + '/' + file.path;
+  var url = fileToUrl(file);
   var xhr = new XMLHttpRequest();
 
   xhr.onload = function() {
@@ -182,13 +188,13 @@ function showFileHtml(file) {
 
 function showFilePdf(file) {
   var article = document.querySelector('article');
-  var url = file.schema + '://' + file.path.replace(/\/body(\.\w+)?$/, '');
-  var copyUrl = file.schema + '/' + file.path;
+  var originalUrl = fileToOriginalUrl(file);
+  var copyUrl = fileToUrl(file);
 
   article.innerHTML = [
     '<div class="pdf">',
       '<h3>', escapeHtml(file.name), '</h3>',
-      '<p class="source">Downloaded from: <a href="', escapeHtml(url), '">', escapeHtml(url), '</a></p>',
+      '<p class="source">Downloaded from: <a href="', escapeHtml(originalUrl), '">', escapeHtml(originalUrl), '</a></p>',
       '<embed type="application/pdf" src="', escapeHtml(copyUrl), '">',
     '</div>'
   ].join('');
@@ -196,13 +202,13 @@ function showFilePdf(file) {
 
 function showFileDefault(file) {
   var article = document.querySelector('article');
-  var url = file.schema + '://' + file.path.replace(/\/body(\.\w+)?$/, '');
-  var copyUrl = file.schema + '/' + file.path;
+  var originalUrl = fileToOriginalUrl(file);
+  var copyUrl = fileToUrl(file);
 
   article.innerHTML = [
     '<div class="not-rendered">',
       '<h3>', escapeHtml(file.name), '</h3>',
-      '<p class="source">Downloaded from: <a href="', escapeHtml(url), '">', escapeHtml(url), '</a></p>',
+      '<p class="source">Downloaded from: <a href="', escapeHtml(originalUrl), '">', escapeHtml(originalUrl), '</a></p>',
       '<p class="ours">Our copy: <a href="', escapeHtml(copyUrl), '">', escapeHtml(copyUrl), '</a></p>',
     '</div>'
   ].join('');
@@ -233,11 +239,7 @@ function renderApp(indexJson) {
         return [
           '<li class="directory">',
             '<span class="name"><strong>', escapeHtml(itemJson.name), '</strong>/</span>',
-            '<span class="sizes">',
-              '<span class="n-files">', itemJson.nFiles, '</span>',
-              ' - ',
-              '<span class="size">', formatSize(itemJson.size), '</span>',
-            '</span>',
+            '<span class="n-files">', itemJson.nFiles, '</span>',
             '<ul>', renderTreeChildren(itemJson.children), '</ul>',
           '</li>'
         ].join('');
@@ -245,7 +247,6 @@ function renderApp(indexJson) {
         return [
           '<li class="file" data-object-id="', assignObjectId(itemJson), '">',
             '<span class="name">', escapeHtml(itemJson.name), '</span>',
-            '<span class="size">', formatSize(itemJson.size), '</span>',
           '</li>'
         ].join('');
     }

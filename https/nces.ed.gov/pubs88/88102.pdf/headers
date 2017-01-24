@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs88/88102.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Mon, 08 Jan 2001 20:26:10 GMT
+< Accept-Ranges: bytes
+< ETag: "01da53cb179c01:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 21:36:57 GMT
+< Connection: close
+< Content-Length: 600540
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

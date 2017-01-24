@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs92/92030.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 28 Mar 2006 18:35:32 GMT
+< Accept-Ranges: bytes
+< ETag: "0724659652c61:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 22:13:02 GMT
+< Connection: close
+< Content-Length: 21083059
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

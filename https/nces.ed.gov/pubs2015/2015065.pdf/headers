@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2015/2015065.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 18 Nov 2015 14:01:52 GMT
+< Accept-Ranges: bytes
+< ETag: "473314ad922d11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:07:09 GMT
+< Connection: close
+< Content-Length: 858216
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

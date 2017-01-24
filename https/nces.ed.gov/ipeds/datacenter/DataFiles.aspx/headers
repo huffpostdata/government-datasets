@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx
+
+
+
+< Status 302 Found
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Location: /ipeds/datacenter/Default.aspx
+< Server: Microsoft-IIS/8.0
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 21:28:37 GMT
+< Connection: close
+< Content-Length: 147
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.html

@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs76/76216.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 28 Feb 2002 20:07:36 GMT
+< Accept-Ranges: bytes
+< ETag: "2ef5a29093c0c11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:59:19 GMT
+< Connection: close
+< Content-Length: 3240548
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

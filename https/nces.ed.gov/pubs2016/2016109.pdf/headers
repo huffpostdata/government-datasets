@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2016/2016109.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 21 Jul 2016 00:55:41 GMT
+< Accept-Ranges: bytes
+< ETag: "2b20a09aeae2d11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 20:04:52 GMT
+< Connection: close
+< Content-Length: 801774
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

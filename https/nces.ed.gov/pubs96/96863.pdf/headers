@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs96/96863.pdf
+
+
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 05 Feb 1997 14:51:26 GMT
+< Accept-Ranges: bytes
+< ETag: "02bb2f7413bc1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Mon, 23 Jan 2017 21:32:55 GMT
+< Connection: close
+< Content-Length: 4236460
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf
