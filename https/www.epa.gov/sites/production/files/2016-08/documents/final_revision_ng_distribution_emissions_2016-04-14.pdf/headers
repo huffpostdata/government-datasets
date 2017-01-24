@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/final_revision_ng_distribution_emissions_2016-04-14.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "164d60656bf877a7c32fd141f7c71578:1471630844"
+< Last-Modified: Fri, 19 Aug 2016 17:43:14 GMT
+< Accept-Ranges: bytes
+< Content-Length: 823473
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:37 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

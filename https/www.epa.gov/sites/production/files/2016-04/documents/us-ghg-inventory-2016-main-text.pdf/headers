@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-04/documents/us-ghg-inventory-2016-main-text.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "68de09c26dcad85e4e5f22ed79f10c53:1465596544"
+< Last-Modified: Fri, 10 Jun 2016 21:34:58 GMT
+< Accept-Ranges: bytes
+< Content-Length: 10505787
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:10 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

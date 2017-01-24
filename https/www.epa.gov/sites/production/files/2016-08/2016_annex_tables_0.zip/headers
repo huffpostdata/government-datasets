@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/2016_annex_tables_0.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "6cfa53ad39c22370a790037a15eb4b80:1471979123"
+< Last-Modified: Tue, 23 Aug 2016 19:01:05 GMT
+< Accept-Ranges: bytes
+< Content-Length: 334804
+< Content-Type: application/zip
+< Date: Tue, 24 Jan 2017 23:30:09 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

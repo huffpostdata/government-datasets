@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2017-01/documents/2017_ghgi_ngpetro_revunderconsid-production_and_gb_1.10.17.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f680224a3207257775159007a2bcc51e:1484155468"
+< Last-Modified: Wed, 11 Jan 2017 16:53:19 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1106087
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:21 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

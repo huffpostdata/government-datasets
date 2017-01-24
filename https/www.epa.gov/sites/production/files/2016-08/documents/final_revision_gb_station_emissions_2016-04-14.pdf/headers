@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/final_revision_gb_station_emissions_2016-04-14.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "afb63eea345eb9422669d1838829b3fb:1471630843"
+< Last-Modified: Fri, 19 Aug 2016 17:42:10 GMT
+< Accept-Ranges: bytes
+< Content-Length: 503364
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:34 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

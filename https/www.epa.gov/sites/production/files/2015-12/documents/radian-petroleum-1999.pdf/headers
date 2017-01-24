@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/radian-petroleum-1999.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "d79c2b86fa25be3af5dee258835e67a2:1449516084"
+< Last-Modified: Mon, 07 Dec 2015 18:37:16 GMT
+< Accept-Ranges: bytes
+< Content-Length: 6168462
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:31:00 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

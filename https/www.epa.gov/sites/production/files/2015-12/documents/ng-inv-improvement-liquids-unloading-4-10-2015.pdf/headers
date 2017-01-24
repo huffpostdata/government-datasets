@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/ng-inv-improvement-liquids-unloading-4-10-2015.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a8dc2c0081a10d4e4786e6544d7057c7:1449514298"
+< Last-Modified: Mon, 07 Dec 2015 18:33:56 GMT
+< Accept-Ranges: bytes
+< Content-Length: 486709
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:50 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

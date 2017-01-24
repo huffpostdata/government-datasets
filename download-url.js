@@ -10,7 +10,7 @@ const urls = process.argv.slice(2)
 function step() {
   if (urls.length === 0) return
 
-  download(urls.shift(), {}, err => {
+  download(urls.shift(), { 'User-Agent': 'The Huffington Post (adam.hooper@huffingtonpost.com)' }, err => {
     if (err) throw err
     process.nextTick(step)
   })

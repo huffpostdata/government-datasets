@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/overview-of-updated-inventory-methodology-for-fractured-gas-well-completions.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "81daff51a32d823dced24ee0b4d6ef70:1449514298"
+< Last-Modified: Mon, 07 Dec 2015 18:35:27 GMT
+< Accept-Ranges: bytes
+< Content-Length: 364532
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:53 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

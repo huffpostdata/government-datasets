@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/ng-petro-inv-improvement-pneumatic-controllers-4-10-2015.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a2eea911b07f4f6988c2ea91fd30c21a:1449514298"
+< Last-Modified: Mon, 07 Dec 2015 18:32:35 GMT
+< Accept-Ranges: bytes
+< Content-Length: 522976
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:48 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

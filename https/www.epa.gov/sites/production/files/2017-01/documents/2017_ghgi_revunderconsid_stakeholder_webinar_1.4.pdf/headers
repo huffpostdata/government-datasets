@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2017-01/documents/2017_ghgi_revunderconsid_stakeholder_webinar_1.4.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "0ac74c3f10977f689d9eddb51cf82ef3:1484740528"
+< Last-Modified: Wed, 18 Jan 2017 11:31:12 GMT
+< Accept-Ranges: bytes
+< Content-Length: 748812
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:26 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-07/documents/ghgrp_inventory_emissions_comparison.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "231db3e0799d7cf433e960780f9ee5d1:1438192624"
+< Last-Modified: Wed, 29 Jul 2015 17:37:24 GMT
+< Accept-Ranges: bytes
+< Content-Length: 254142
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:31:08 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

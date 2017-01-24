@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2017-01/documents/2017_ghgi_ng_revision_under_consideration_-_gas_proc_1.17.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "7721af029047e063960e914776498009:1484740527"
+< Last-Modified: Wed, 18 Jan 2017 11:27:15 GMT
+< Accept-Ranges: bytes
+< Content-Length: 591090
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:24 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

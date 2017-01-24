@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/2016_chapter_tables_1.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "515d47a258a3a2039a82027316d1fa4f:1471979124"
+< Last-Modified: Tue, 23 Aug 2016 18:59:40 GMT
+< Accept-Ranges: bytes
+< Content-Length: 270877
+< Content-Type: application/zip
+< Date: Tue, 24 Jan 2017 23:30:07 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

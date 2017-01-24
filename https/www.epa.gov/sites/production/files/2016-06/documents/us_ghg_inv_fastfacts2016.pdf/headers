@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-06/documents/us_ghg_inv_fastfacts2016.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "35d1cf00e9e01462a2cbf3472a81797e:1465855428"
+< Last-Modified: Mon, 13 Jun 2016 20:47:47 GMT
+< Accept-Ranges: bytes
+< Content-Length: 7158358
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:15 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

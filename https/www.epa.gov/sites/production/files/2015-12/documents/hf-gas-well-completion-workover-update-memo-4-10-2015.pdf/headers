@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/hf-gas-well-completion-workover-update-memo-4-10-2015.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "b1ccc54034542c223c4fd3902c042176:1449514298"
+< Last-Modified: Mon, 07 Dec 2015 18:29:01 GMT
+< Accept-Ranges: bytes
+< Content-Length: 237653
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:43 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

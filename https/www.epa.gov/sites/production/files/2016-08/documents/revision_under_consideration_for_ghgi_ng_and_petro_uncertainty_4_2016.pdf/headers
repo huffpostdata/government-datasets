@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/revision_under_consideration_for_ghgi_ng_and_petro_uncertainty_4_2016.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "7377499a7403486ee11f211a3f83c0e4:1471630844"
+< Last-Modified: Fri, 19 Aug 2016 17:43:48 GMT
+< Accept-Ranges: bytes
+< Content-Length: 409207
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 23:30:39 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf
