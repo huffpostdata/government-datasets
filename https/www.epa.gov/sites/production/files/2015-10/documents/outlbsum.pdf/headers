@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/outlbsum.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "104c5c94de5b9897c652a36b1d97399b:1444071270"
+< Last-Modified: Mon, 05 Oct 2015 18:46:46 GMT
+< Accept-Ranges: bytes
+< Content-Length: 43758
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:47:27 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

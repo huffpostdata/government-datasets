@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-10/flint_public_video_transcript.txt
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "28933c4970a4bf2754f4d28c3f870e6a:1476977012"
+< Last-Modified: Thu, 20 Oct 2016 15:18:14 GMT
+< Accept-Ranges: bytes
+< Content-Length: 4263
+< Content-Type: text/plain
+< Date: Tue, 24 Jan 2017 21:50:15 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.txt

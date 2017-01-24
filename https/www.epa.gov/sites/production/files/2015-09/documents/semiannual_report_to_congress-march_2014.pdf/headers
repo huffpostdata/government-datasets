@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/semiannual_report_to_congress-march_2014.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a0df1f8e228c90b297325b64433cd373:1441904536"
+< Last-Modified: Thu, 10 Sep 2015 16:41:27 GMT
+< Accept-Ranges: bytes
+< Content-Length: 7068138
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:01:13 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/2007epaoigannualperformancereport.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "c15131342fc5a6996d454bda32cc424c:1442504694"
+< Last-Modified: Thu, 17 Sep 2015 15:30:20 GMT
+< Accept-Ranges: bytes
+< Content-Length: 610327
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:15 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

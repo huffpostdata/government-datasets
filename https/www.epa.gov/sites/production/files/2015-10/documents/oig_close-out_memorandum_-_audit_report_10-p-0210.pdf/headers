@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/oig_close-out_memorandum_-_audit_report_10-p-0210.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "8c2e62bd0beb99f40fc6af3b84d2542f:1446064193"
+< Last-Modified: Wed, 28 Oct 2015 20:18:36 GMT
+< Accept-Ranges: bytes
+< Content-Length: 33729
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:21:12 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

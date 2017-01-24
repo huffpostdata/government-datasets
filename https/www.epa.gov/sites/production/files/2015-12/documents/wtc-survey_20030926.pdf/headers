@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/wtc-survey_20030926.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "6b68136bd107f6b7b864c5ff9c7cd5f9:1449082330"
+< Last-Modified: Wed, 02 Dec 2015 18:09:04 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1442911
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:39:43 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

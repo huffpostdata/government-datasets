@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/annualperformancereportfy2009.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "8617e346db1e96151d37ab1e162e551e:1442504694"
+< Last-Modified: Thu, 17 Sep 2015 15:23:20 GMT
+< Accept-Ranges: bytes
+< Content-Length: 678814
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:11 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/aeroexsm.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "78e2f7d5010f40456c11751181d0ee14:1444072434"
+< Last-Modified: Mon, 05 Oct 2015 18:55:05 GMT
+< Accept-Ranges: bytes
+< Content-Length: 44886
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:47:37 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

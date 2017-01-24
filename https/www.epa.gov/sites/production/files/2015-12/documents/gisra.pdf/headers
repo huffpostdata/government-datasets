@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/gisra.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "da8cb6eabe74365900721ee21659e992:1449862673"
+< Last-Modified: Fri, 11 Dec 2015 19:31:26 GMT
+< Accept-Ranges: bytes
+< Content-Length: 71770
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:36 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

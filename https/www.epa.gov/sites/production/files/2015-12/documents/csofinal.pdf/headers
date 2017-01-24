@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/csofinal.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f2250b5d8bae266f766a3ad46c595ecc:1450802986"
+< Last-Modified: Tue, 22 Dec 2015 16:37:01 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1273450
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:52 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

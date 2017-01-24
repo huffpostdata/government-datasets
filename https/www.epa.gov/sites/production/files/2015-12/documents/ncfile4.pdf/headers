@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/ncfile4.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "32a9e26fa82525c4c1be668a379f25cd:1450281879"
+< Last-Modified: Wed, 16 Dec 2015 15:23:57 GMT
+< Accept-Ranges: bytes
+< Content-Length: 714515
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:07 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

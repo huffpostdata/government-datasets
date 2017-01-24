@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/audit_report_2003-1-00087.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "28638cff8fba986dea56026404baf5aa:1449250530"
+< Last-Modified: Fri, 04 Dec 2015 17:08:40 GMT
+< Accept-Ranges: bytes
+< Content-Length: 289312
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:12 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

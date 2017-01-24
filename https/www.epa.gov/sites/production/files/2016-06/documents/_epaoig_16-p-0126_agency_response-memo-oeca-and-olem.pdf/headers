@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-06/documents/_epaoig_16-p-0126_agency_response-memo-oeca-and-olem.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "1fa124ee99e61613fc885b25f142faf7:1467053021"
+< Last-Modified: Mon, 27 Jun 2016 17:33:48 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1637439
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:52:52 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

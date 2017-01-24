@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/new_hampshire_cw.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "d711ed7942295d918c823c794ba1b0d7:1449253086"
+< Last-Modified: Fri, 04 Dec 2015 17:27:09 GMT
+< Accept-Ranges: bytes
+< Content-Length: 417147
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:18 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

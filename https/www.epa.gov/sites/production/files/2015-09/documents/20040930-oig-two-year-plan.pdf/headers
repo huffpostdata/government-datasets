@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/20040930-oig-two-year-plan.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "d7fc613a1627278608d4eaba01b77a7c:1442502038"
+< Last-Modified: Thu, 17 Sep 2015 14:49:12 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1187290
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:46 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

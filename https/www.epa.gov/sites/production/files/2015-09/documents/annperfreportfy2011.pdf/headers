@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/annperfreportfy2011.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "1e1bc30989f72b61b1704aa624f66c83:1442503706"
+< Last-Modified: Thu, 17 Sep 2015 15:21:05 GMT
+< Accept-Ranges: bytes
+< Content-Length: 984053
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:09 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

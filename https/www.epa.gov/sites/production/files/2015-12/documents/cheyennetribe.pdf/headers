@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/cheyennetribe.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "c0c41e40ef0a68c05dcd8bedbe4cfad6:1449858509"
+< Last-Modified: Fri, 11 Dec 2015 17:42:12 GMT
+< Accept-Ranges: bytes
+< Content-Length: 516910
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:22 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

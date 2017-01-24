@@ -8,7 +8,8 @@ GET https://www.dol.gov/asp/evaluation/BIStudy/
 < Content-Type: text/html
 < Server: Microsoft-IIS/8.5
 < X-Powered-By: ASP.NET
-< Date: Fri, 20 Jan 2017 20:21:44 GMT
+< Date: Tue, 24 Jan 2017 22:54:04 GMT
 < Connection: close
+< Set-Cookie: ASPSESSIONIDAWRASTSS=CPCKPMODOCEMMPMAKDEPBLCN; secure; path=/
 
 wrote body.html

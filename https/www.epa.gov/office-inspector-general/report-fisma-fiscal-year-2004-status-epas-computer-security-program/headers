@@ -1,0 +1,20 @@
+GET https://www.epa.gov/office-inspector-general/report-fisma-fiscal-year-2004-status-epas-computer-security-program
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< ETag: "5ce0-546da2e4e3cbf"
+< Accept-Ranges: bytes
+< Content-Length: 23776
+< X-UA-Compatible: IE=Edge,chrome=1
+< X-Cached-By: Boost
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+< Expires: Tue, 24 Jan 2017 19:03:28 GMT
+< Date: Tue, 24 Jan 2017 19:03:28 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.html

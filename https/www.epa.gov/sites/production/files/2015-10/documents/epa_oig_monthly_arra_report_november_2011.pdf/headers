@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/epa_oig_monthly_arra_report_november_2011.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "fce986b8ad92d5012012fb669725b9f5:1444140009"
+< Last-Modified: Tue, 06 Oct 2015 13:46:21 GMT
+< Accept-Ranges: bytes
+< Content-Length: 214480
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:45:08 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

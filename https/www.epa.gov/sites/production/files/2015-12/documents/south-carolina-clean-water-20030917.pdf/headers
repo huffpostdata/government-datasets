@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/south-carolina-clean-water-20030917.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "d032e514708d1a97ed4a8663803fcdfa:1449248852"
+< Last-Modified: Fri, 04 Dec 2015 16:27:35 GMT
+< Accept-Ranges: bytes
+< Content-Length: 244852
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:39:52 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

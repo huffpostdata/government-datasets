@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/20120525-12-p-0508.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "5fcdf2821a885324fa37b154b697a99e:1445746067"
+< Last-Modified: Sun, 25 Oct 2015 03:27:01 GMT
+< Accept-Ranges: bytes
+< Content-Length: 292897
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:10:10 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-11/documents/20060517qareport.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "634bc8704f4ed3a6aa78d54e4fbe69af:1448388542"
+< Last-Modified: Tue, 24 Nov 2015 17:42:37 GMT
+< Accept-Ranges: bytes
+< Content-Length: 359233
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:34:32 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

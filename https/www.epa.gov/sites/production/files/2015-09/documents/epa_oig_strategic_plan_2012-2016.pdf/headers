@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/epa_oig_strategic_plan_2012-2016.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "32858ca0d4a6f9344073d74347fae243:1442498494"
+< Last-Modified: Thu, 17 Sep 2015 13:38:53 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1060219
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:35 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

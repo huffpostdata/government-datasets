@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/eshrpt.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a36d8cc8234fc63a4ef4afebfa06c5ee:1444071269"
+< Last-Modified: Mon, 05 Oct 2015 18:39:55 GMT
+< Accept-Ranges: bytes
+< Content-Length: 171603
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:47:18 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/namc.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "3d88584522e3bd9435c5081c353e92cc:1449862675"
+< Last-Modified: Fri, 11 Dec 2015 19:19:21 GMT
+< Accept-Ranges: bytes
+< Content-Length: 187554
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:35 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/epa_oig_annual_performance_report_fy_2013.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "6aac2a64e76b015da1af7718a9cb0ea2:1442503706"
+< Last-Modified: Thu, 17 Sep 2015 15:14:32 GMT
+< Accept-Ranges: bytes
+< Content-Length: 613837
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:06 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

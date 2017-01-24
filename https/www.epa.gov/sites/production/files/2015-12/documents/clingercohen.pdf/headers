@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/clingercohen.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "c109e968d5eef8cdb7fddcd9e7b9bf22:1449258820"
+< Last-Modified: Fri, 04 Dec 2015 19:26:43 GMT
+< Accept-Ranges: bytes
+< Content-Length: 285290
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:41 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

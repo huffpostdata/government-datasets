@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-11/documents/semiannual_report_to_congress-september_2015_3.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "6cb4b1a7c3640e9d559e1da288dba4a8:1460982095"
+< Last-Modified: Mon, 18 Apr 2016 11:57:37 GMT
+< Accept-Ranges: bytes
+< Content-Length: 2850702
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:54:02 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-10/documents/_epaoig_16-p-0275_agency_response.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "661463d7192a5b8f65cd8ddc1bd6a388:1476896691"
+< Last-Modified: Wed, 19 Oct 2016 16:22:46 GMT
+< Accept-Ranges: bytes
+< Content-Length: 350674
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:51:11 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

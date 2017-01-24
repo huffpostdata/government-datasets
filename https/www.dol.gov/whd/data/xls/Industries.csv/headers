@@ -10,7 +10,7 @@ GET https://www.dol.gov/whd/data/xls/Industries.csv
 < Server: Microsoft-IIS/8.5
 < X-Powered-By: ASP.NET
 < Content-Length: 10078
-< Date: Thu, 19 Jan 2017 17:10:32 GMT
+< Date: Tue, 24 Jan 2017 22:49:22 GMT
 < Connection: close
 
 wrote body.csv

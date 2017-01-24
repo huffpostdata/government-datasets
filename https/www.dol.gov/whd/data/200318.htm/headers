@@ -9,8 +9,7 @@ GET https://www.dol.gov/whd/data/200318.htm
 < Last-Modified: 12/18/2014 3:52:45 PM
 < Server: Microsoft-IIS/8.5
 < X-Powered-By: ASP.NET
-< Date: Thu, 19 Jan 2017 17:12:19 GMT
+< Date: Tue, 24 Jan 2017 22:47:53 GMT
 < Connection: close
-< Set-Cookie: ASPSESSIONIDSUQCTQRQ=AIOKCLEAIPEBMKIFDCELHAMP; secure; path=/
 
 wrote body.html

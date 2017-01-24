@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/bankrep.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "99c64099267ceabfb7e79319848b4b53:1444071269"
+< Last-Modified: Mon, 05 Oct 2015 18:41:36 GMT
+< Accept-Ranges: bytes
+< Content-Length: 143442
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:47:21 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

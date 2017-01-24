@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/OSHA/osha_accident_20170122.csv.zip
+
+
+
+< Status 200 OK
+< Date: Tue, 24 Jan 2017 22:45:29 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Sun, 22 Jan 2017 13:15:01 GMT
+< ETag: "6014a-76b5-546aeaba501c3"
+< Accept-Ranges: bytes
+< Content-Length: 30389
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

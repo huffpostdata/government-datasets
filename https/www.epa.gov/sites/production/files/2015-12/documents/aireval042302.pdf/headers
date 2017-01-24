@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/aireval042302.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "e9b6b98dff97dae530680f6cee4873e9:1449260565"
+< Last-Modified: Fri, 04 Dec 2015 19:59:01 GMT
+< Accept-Ranges: bytes
+< Content-Length: 45137
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:02 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

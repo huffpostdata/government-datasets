@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/geothermal20030930.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f6aee301a9a2c36086472faf8a832cb3:1449080344"
+< Last-Modified: Wed, 02 Dec 2015 17:48:15 GMT
+< Accept-Ranges: bytes
+< Content-Length: 147599
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:39:35 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

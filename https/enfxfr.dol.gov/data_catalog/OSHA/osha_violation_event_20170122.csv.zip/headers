@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/OSHA/osha_violation_event_20170122.csv.zip
+
+
+
+< Status 200 OK
+< Date: Tue, 24 Jan 2017 22:46:45 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Sun, 22 Jan 2017 13:15:03 GMT
+< ETag: "6015e-34576e5-546aeabc829c3"
+< Accept-Ranges: bytes
+< Content-Length: 54884069
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

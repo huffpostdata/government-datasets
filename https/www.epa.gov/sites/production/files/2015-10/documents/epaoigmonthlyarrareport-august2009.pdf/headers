@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/epaoigmonthlyarrareport-august2009.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a1c0fb12dcdf9c26824f945a56444626:1444142646"
+< Last-Modified: Tue, 06 Oct 2015 14:21:28 GMT
+< Accept-Ranges: bytes
+< Content-Length: 109290
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:45:01 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

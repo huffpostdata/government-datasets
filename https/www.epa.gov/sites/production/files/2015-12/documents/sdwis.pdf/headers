@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/sdwis.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "8dd4df2066cd7ce7735ae9490f6d0621:1449850759"
+< Last-Modified: Fri, 11 Dec 2015 15:49:19 GMT
+< Accept-Ranges: bytes
+< Content-Length: 105228
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:16 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

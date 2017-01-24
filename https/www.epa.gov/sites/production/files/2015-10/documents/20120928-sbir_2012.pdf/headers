@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/20120928-sbir_2012.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "eb58e12dc5bfe22e7d892721664d2e6a:1445714346"
+< Last-Modified: Sat, 24 Oct 2015 19:10:17 GMT
+< Accept-Ranges: bytes
+< Content-Length: 876681
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:08:04 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

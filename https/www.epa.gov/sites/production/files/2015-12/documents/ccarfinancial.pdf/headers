@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/ccarfinancial.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "6d983b6cd0f0116428fc6b43c411385b:1449260565"
+< Last-Modified: Fri, 04 Dec 2015 19:57:14 GMT
+< Accept-Ranges: bytes
+< Content-Length: 76824
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:03 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

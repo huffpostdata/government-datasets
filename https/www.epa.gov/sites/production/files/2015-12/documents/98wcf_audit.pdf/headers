@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/98wcf_audit.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "da454379dc9840fa21673c604c619762:1450283618"
+< Last-Modified: Wed, 16 Dec 2015 15:59:39 GMT
+< Accept-Ranges: bytes
+< Content-Length: 84934
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:21 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

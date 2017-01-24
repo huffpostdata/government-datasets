@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/rcramontana.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "8c27dac56459507ed513977006d30ba6:1450211783"
+< Last-Modified: Tue, 15 Dec 2015 19:46:10 GMT
+< Accept-Ranges: bytes
+< Content-Length: 454067
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:53 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

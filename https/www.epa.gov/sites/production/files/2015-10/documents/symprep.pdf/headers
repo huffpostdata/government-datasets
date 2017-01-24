@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/symprep.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "781bf894c8a107bc11138ce96c1bb90c:1444071270"
+< Last-Modified: Mon, 05 Oct 2015 18:38:50 GMT
+< Accept-Ranges: bytes
+< Content-Length: 144440
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:47:16 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

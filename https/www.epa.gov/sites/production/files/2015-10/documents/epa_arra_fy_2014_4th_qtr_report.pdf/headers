@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/epa_arra_fy_2014_4th_qtr_report.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "2e4ff0db3846b1b403c61506e9e1f6d8:1444135458"
+< Last-Modified: Tue, 06 Oct 2015 12:22:33 GMT
+< Accept-Ranges: bytes
+< Content-Length: 481514
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:46 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

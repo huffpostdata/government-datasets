@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/20130417-13-p-0221_agency_response_to_draft.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f4003c66dbb2ef13819c3196e9d1e2d0:1443298471"
+< Last-Modified: Sat, 26 Sep 2015 19:57:28 GMT
+< Accept-Ranges: bytes
+< Content-Length: 8730468
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:06:07 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

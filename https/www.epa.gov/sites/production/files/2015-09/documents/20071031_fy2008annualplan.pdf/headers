@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/20071031_fy2008annualplan.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "8467371fef48688f76b89d96318db390:1442502038"
+< Last-Modified: Thu, 17 Sep 2015 14:46:03 GMT
+< Accept-Ranges: bytes
+< Content-Length: 513270
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:45 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

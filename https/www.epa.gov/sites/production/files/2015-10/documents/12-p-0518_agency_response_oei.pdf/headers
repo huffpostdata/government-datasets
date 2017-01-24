@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/12-p-0518_agency_response_oei.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "d5bb41f8404c2278c93df0aba6522ada:1445798767"
+< Last-Modified: Sun, 25 Oct 2015 18:11:36 GMT
+< Accept-Ranges: bytes
+< Content-Length: 553331
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:09:59 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/20100405-10-p-0095_glance.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "3f347b88154c0149b51e120e34028618:1446048933"
+< Last-Modified: Wed, 28 Oct 2015 15:40:17 GMT
+< Accept-Ranges: bytes
+< Content-Length: 34105
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:22:50 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/newstarts_02-01-2012_list_of_management_challenges_csb.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "b1e3af2b732d94028cbfa2bb563de2a8:1442424257"
+< Last-Modified: Wed, 16 Sep 2015 17:05:24 GMT
+< Accept-Ranges: bytes
+< Content-Length: 29964
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:02:28 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

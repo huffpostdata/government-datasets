@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/water-doug.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "2906d849d83d1be5fef72c81e27203fb:1450211783"
+< Last-Modified: Tue, 15 Dec 2015 19:59:18 GMT
+< Accept-Ranges: bytes
+< Content-Length: 99553
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:01 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

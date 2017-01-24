@@ -9,10 +9,10 @@ GET https://wdr.doleta.gov/research/FullText_Documents/ETAOP_2015-07.pdf
 < ETag: "452ba76f3073d11:0"
 < Server: Microsoft-IIS/7.5
 < X-Powered-By: ASP.NET
-< Date: Fri, 20 Jan 2017 22:19:09 GMT
+< Date: Tue, 24 Jan 2017 22:17:05 GMT
 < Connection: close
 < Content-Length: 3333168
-< Set-Cookie: BIGipServerLTM_p_WDR_Prod_URL_OLD=!1HzuGPFDOUP5L/rZUlGZZCjJRr65DtFSGntNtK7xGJmTyYHOPWOBIVQhA1+kXy40wYPWc7E32JNxxGo=;Path=/;Version=1;Secure;Httponly
+< Set-Cookie: BIGipServerLTM_p_WDR_Prod_URL_OLD=!gUGR5aw4sF470TPZUlGZZCjJRr65DqtjAuXRpaiV0a22WwBGHh2YH9LBX0vsauziks3fzLF4Rv4Pfgg=;Path=/;Version=1;Secure;Httponly
 < Strict-Transport-Security: max-age=31536000; includeSubDomains
 < Vary: Accept-Encoding
 

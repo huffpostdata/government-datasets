@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/20140724-14-p-0323.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a830d63b109f513a0910eb6ff3e5d573:1443104907"
+< Last-Modified: Thu, 24 Sep 2015 14:02:12 GMT
+< Accept-Ranges: bytes
+< Content-Length: 979624
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:59:54 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

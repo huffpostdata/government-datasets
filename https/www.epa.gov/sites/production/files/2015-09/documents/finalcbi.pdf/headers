@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/finalcbi.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f73eff79a2011c41b03b834792bbace4:1443670210"
+< Last-Modified: Thu, 01 Oct 2015 03:05:58 GMT
+< Accept-Ranges: bytes
+< Content-Length: 43531
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:46:12 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

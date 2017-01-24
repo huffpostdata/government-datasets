@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/epa_oig_fy_2015_annual_plan.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "c232d47fd620ec8b818d8a244ee252e4:1442498494"
+< Last-Modified: Thu, 17 Sep 2015 13:51:39 GMT
+< Accept-Ranges: bytes
+< Content-Length: 2187438
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:58:37 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

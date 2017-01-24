@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/fbfrpt.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "00a86e84f8da851fe204b876c8a8a842:1450211780"
+< Last-Modified: Tue, 15 Dec 2015 20:03:31 GMT
+< Accept-Ranges: bytes
+< Content-Length: 123653
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:04 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

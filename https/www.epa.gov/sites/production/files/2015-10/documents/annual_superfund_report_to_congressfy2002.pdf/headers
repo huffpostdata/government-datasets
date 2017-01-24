@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/annual_superfund_report_to_congressfy2002.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f326e0ac0ba7ffefaf44650af1f7f566:1444074290"
+< Last-Modified: Mon, 05 Oct 2015 19:32:00 GMT
+< Accept-Ranges: bytes
+< Content-Length: 192310
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:38 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

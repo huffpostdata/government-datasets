@@ -10,7 +10,7 @@ GET https://www.dol.gov/whd/data/xls/H1B.csv
 < Server: Microsoft-IIS/8.5
 < X-Powered-By: ASP.NET
 < Content-Length: 2511
-< Date: Thu, 19 Jan 2017 17:10:42 GMT
+< Date: Tue, 24 Jan 2017 22:49:32 GMT
 < Connection: close
 
 wrote body.csv

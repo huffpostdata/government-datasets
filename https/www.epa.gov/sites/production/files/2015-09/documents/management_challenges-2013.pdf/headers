@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/management_challenges-2013.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "fec5bda2cd777d514db713213296ebd1:1442410131"
+< Last-Modified: Wed, 16 Sep 2015 13:08:40 GMT
+< Accept-Ranges: bytes
+< Content-Length: 4238630
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:05:08 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

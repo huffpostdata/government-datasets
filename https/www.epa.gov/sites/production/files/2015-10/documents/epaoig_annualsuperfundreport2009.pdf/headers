@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/epaoig_annualsuperfundreport2009.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "b4e387e438b527e67670bb5cbbb051f9:1444073361"
+< Last-Modified: Mon, 05 Oct 2015 19:09:07 GMT
+< Accept-Ranges: bytes
+< Content-Length: 377459
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:25 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

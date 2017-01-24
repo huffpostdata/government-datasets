@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/audit_report_on_epas_fy_2002_and_2001_financial_statements.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a464d6d308e67e3342285f53eb99f381:1449254205"
+< Last-Modified: Fri, 04 Dec 2015 18:07:13 GMT
+< Accept-Ranges: bytes
+< Content-Length: 3709318
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:26 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/biosolids_final_report.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "137df87b1bde9dcbc4c7f3d0b8bc3a2e:1449850758"
+< Last-Modified: Fri, 11 Dec 2015 15:39:06 GMT
+< Accept-Ranges: bytes
+< Content-Length: 461608
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:13 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

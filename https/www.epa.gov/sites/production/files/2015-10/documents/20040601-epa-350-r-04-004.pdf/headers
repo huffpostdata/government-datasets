@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/20040601-epa-350-r-04-004.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "e884ccfa901646ad4df5ce2808cc3e09:1444074289"
+< Last-Modified: Mon, 05 Oct 2015 19:28:46 GMT
+< Accept-Ranges: bytes
+< Content-Length: 224733
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:35 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

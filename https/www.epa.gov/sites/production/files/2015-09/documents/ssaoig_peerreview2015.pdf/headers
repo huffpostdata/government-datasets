@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/ssaoig_peerreview2015.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "fdfe03f991beaa3da416094d57f10f29:1442507342"
+< Last-Modified: Thu, 17 Sep 2015 16:13:36 GMT
+< Accept-Ranges: bytes
+< Content-Length: 605936
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:52 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

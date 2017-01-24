@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/20140502-14-b-0246.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "e7b86f8b683c508ea26d90266fc697ab:1443106851"
+< Last-Modified: Thu, 24 Sep 2015 14:47:50 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1085299
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:00:52 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

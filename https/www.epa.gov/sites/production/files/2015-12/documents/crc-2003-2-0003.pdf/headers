@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/crc-2003-2-0003.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "03efbc5d12ddc724ae3dd86be1fbb991:1449255351"
+< Last-Modified: Fri, 04 Dec 2015 18:22:29 GMT
+< Accept-Ranges: bytes
+< Content-Length: 31673
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:30 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-11/documents/20060530-2006-p-00026.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a69c72bda56a05243bddd35845d0ae61:1448384616"
+< Last-Modified: Tue, 24 Nov 2015 16:44:24 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1555582
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:34:26 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/epa_oig_monthly_arra_report-september_2010.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "569271d5f9414ef22abf71c84d8e3c42:1444141606"
+< Last-Modified: Tue, 06 Oct 2015 14:04:21 GMT
+< Accept-Ranges: bytes
+< Content-Length: 139776
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:44:21 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

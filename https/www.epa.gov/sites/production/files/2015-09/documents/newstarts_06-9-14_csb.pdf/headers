@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/newstarts_06-9-14_csb.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "df116bffcfee90fa255ede2f32af4bb3:1442424258"
+< Last-Modified: Wed, 16 Sep 2015 17:01:14 GMT
+< Accept-Ranges: bytes
+< Content-Length: 2792255
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:00:26 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

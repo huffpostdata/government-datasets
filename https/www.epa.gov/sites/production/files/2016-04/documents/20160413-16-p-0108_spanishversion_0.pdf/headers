@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-04/documents/20160413-16-p-0108_spanishversion_0.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "3512c72492c046cd03bd57197ceecc5e:1460474048"
+< Last-Modified: Tue, 12 Apr 2016 14:59:36 GMT
+< Accept-Ranges: bytes
+< Content-Length: 893971
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:53:22 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

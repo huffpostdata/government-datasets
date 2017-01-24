@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/13-p-0057_agency_response_oita.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "17de6d746f8da9cedb92ca10bdd68667:1445795182"
+< Last-Modified: Sun, 25 Oct 2015 17:14:43 GMT
+< Accept-Ranges: bytes
+< Content-Length: 742260
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:07:50 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

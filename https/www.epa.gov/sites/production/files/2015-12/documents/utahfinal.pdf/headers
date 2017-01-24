@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/utahfinal.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a86d3f56c9cfd76e6eb7185d4c2697c5:1449250532"
+< Last-Modified: Fri, 04 Dec 2015 16:58:19 GMT
+< Accept-Ranges: bytes
+< Content-Length: 270057
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:07 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

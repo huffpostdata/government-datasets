@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/ssrulemakingaddendum.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f9d1fcd528a41db08796c1af7ac50844:1449257886"
+< Last-Modified: Fri, 04 Dec 2015 19:16:13 GMT
+< Accept-Ranges: bytes
+< Content-Length: 833070
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:35 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

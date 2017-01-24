@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/csb_semiannual_report_to_congress-november_2012.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f7808c83109a0e26e11e68481e7d623b:1445795183"
+< Last-Modified: Sun, 25 Oct 2015 17:08:20 GMT
+< Accept-Ranges: bytes
+< Content-Length: 236563
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:07:42 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/12-p-0724_csb_response.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "6e5c1b1a2c053cf72546348d48f47f7f:1445796868"
+< Last-Modified: Sun, 25 Oct 2015 17:51:00 GMT
+< Accept-Ranges: bytes
+< Content-Length: 633083
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:09:12 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

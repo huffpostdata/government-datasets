@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/rcrarep.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "eabc41278e400ef9a8fbe55be34885b2:1444071270"
+< Last-Modified: Mon, 05 Oct 2015 18:43:19 GMT
+< Accept-Ranges: bytes
+< Content-Length: 160129
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:47:22 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

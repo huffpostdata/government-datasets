@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/flashrep.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "45a31c60dd167f40105291acbacceac6:1444071269"
+< Last-Modified: Mon, 05 Oct 2015 18:50:02 GMT
+< Accept-Ranges: bytes
+< Content-Length: 40018
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:47:31 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

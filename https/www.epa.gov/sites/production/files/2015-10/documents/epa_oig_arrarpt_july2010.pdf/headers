@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/epa_oig_arrarpt_july2010.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "2332159f0458247f0c2cf35e8b5b6c2a:1444141606"
+< Last-Modified: Tue, 06 Oct 2015 14:06:27 GMT
+< Accept-Ranges: bytes
+< Content-Length: 161821
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:44:27 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

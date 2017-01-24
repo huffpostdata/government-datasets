@@ -1,0 +1,15 @@
+GET https://enfxfr.dol.gov/data_catalog/OSHA/osha_metadata_20170122.csv.zip
+
+
+
+< Status 200 OK
+< Date: Tue, 24 Jan 2017 22:46:14 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Sun, 22 Jan 2017 13:15:02 GMT
+< ETag: "60154-599-546aeabb75cfb"
+< Accept-Ranges: bytes
+< Content-Length: 1433
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

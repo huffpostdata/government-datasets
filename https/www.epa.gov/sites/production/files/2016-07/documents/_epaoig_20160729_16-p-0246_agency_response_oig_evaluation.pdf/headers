@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-07/documents/_epaoig_20160729_16-p-0246_agency_response_oig_evaluation.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "3b6f495f983dad048beec1bf07bd523a:1469712769"
+< Last-Modified: Thu, 28 Jul 2016 13:13:31 GMT
+< Accept-Ranges: bytes
+< Content-Length: 570586
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:51:30 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

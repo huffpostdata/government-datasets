@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/epa_oig_fy_2010_annual_plan-revised_april_2010.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "9f22d2e3ce1e42e99bebdb2794a85da9:1442500853"
+< Last-Modified: Thu, 17 Sep 2015 14:24:00 GMT
+< Accept-Ranges: bytes
+< Content-Length: 210022
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:40 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

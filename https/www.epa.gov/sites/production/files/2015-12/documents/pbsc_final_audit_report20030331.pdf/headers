@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/pbsc_final_audit_report20030331.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "3fa7730dd188a9c5220c9a43ec22a2e6:1449248852"
+< Last-Modified: Fri, 04 Dec 2015 16:46:26 GMT
+< Accept-Ranges: bytes
+< Content-Length: 885432
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:02 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

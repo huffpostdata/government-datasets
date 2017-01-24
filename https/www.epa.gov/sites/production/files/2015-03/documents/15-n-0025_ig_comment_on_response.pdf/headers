@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-03/documents/15-n-0025_ig_comment_on_response.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "b3331eaed5e1680d37518b7118be27f8:1425920875"
+< Last-Modified: Mon, 09 Mar 2015 17:02:29 GMT
+< Accept-Ranges: bytes
+< Content-Length: 200724
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:58:06 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

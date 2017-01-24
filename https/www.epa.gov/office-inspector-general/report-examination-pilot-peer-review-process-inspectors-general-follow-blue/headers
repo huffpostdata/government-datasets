@@ -1,0 +1,20 @@
+GET https://www.epa.gov/office-inspector-general/report-examination-pilot-peer-review-process-inspectors-general-follow-blue
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< ETag: "5f9d-546d3910b1a01"
+< Accept-Ranges: bytes
+< Content-Length: 24477
+< X-UA-Compatible: IE=Edge,chrome=1
+< X-Cached-By: Boost
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+< Expires: Tue, 24 Jan 2017 18:42:06 GMT
+< Date: Tue, 24 Jan 2017 18:42:06 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.html

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/lvfc_audit_report.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "6adb6b16e63ccdfd4c52b6550d920f52:1449250531"
+< Last-Modified: Fri, 04 Dec 2015 17:01:24 GMT
+< Accept-Ranges: bytes
+< Content-Length: 83048
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:40:09 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

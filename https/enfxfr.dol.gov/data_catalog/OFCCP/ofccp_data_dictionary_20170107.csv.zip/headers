@@ -3,7 +3,7 @@ GET https://enfxfr.dol.gov/data_catalog/OFCCP/ofccp_data_dictionary_20170107.csv
 
 
 < Status 200 OK
-< Date: Thu, 19 Jan 2017 22:57:16 GMT
+< Date: Tue, 24 Jan 2017 22:17:14 GMT
 < Server: Apache/2.2.15 (Red Hat)
 < Last-Modified: Sat, 07 Jan 2017 13:15:34 GMT
 < ETag: "60166-aa7-54580edf615af"

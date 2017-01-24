@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/wallenpaupack.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "d47a5439b1a70a7ca11b364ca751563c:1449860928"
+< Last-Modified: Fri, 11 Dec 2015 18:39:52 GMT
+< Accept-Ranges: bytes
+< Content-Length: 46830
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:27 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/csb_letter_to_oig_8-5-2015.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "f6a2b17e6633db246ba095b98fb8e8ab:1443231126"
+< Last-Modified: Sat, 26 Sep 2015 01:11:05 GMT
+< Accept-Ranges: bytes
+< Content-Length: 273105
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 21:55:55 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

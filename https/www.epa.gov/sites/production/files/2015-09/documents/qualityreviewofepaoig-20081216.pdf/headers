@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/qualityreviewofepaoig-20081216.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a077608cefc7d890f57152240ee03389:1442508837"
+< Last-Modified: Thu, 17 Sep 2015 16:52:52 GMT
+< Accept-Ranges: bytes
+< Content-Length: 427281
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:59 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

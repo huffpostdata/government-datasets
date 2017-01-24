@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/external_peer_review_of_epa-oig_2012.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "35fe5f6fda92b646ea718d9391c744df:1442508312"
+< Last-Modified: Thu, 17 Sep 2015 16:22:01 GMT
+< Accept-Ranges: bytes
+< Content-Length: 359550
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:54 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

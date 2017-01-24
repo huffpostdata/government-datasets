@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/siouxtribe.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "ad6b0a6e7dbe9d4606a7797a519fb847:1449848972"
+< Last-Modified: Fri, 11 Dec 2015 15:21:39 GMT
+< Accept-Ranges: bytes
+< Content-Length: 164429
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:06 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

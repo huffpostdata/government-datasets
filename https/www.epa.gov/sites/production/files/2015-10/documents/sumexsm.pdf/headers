@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-10/documents/sumexsm.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "c906ff203658bca30752b29b5906bdcd:1444072435"
+< Last-Modified: Mon, 05 Oct 2015 18:54:23 GMT
+< Accept-Ranges: bytes
+< Content-Length: 38405
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:47:35 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

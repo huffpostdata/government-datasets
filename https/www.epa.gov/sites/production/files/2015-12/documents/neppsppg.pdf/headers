@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/neppsppg.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "0cb98e89422fb5c30ec881566ce8b7e5:1450281879"
+< Last-Modified: Wed, 16 Dec 2015 15:50:41 GMT
+< Accept-Ranges: bytes
+< Content-Length: 39164
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:42:16 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

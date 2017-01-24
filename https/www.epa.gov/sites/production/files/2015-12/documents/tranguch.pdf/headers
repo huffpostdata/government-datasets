@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/tranguch.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "9073e8c5c81799018a7a76bf8e914df8:1449864598"
+< Last-Modified: Fri, 11 Dec 2015 19:37:47 GMT
+< Accept-Ranges: bytes
+< Content-Length: 339783
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:38 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

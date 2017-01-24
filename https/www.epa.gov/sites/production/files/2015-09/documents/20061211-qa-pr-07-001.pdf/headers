@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-09/documents/20061211-qa-pr-07-001.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "14689dd0279b3fe90ef6c1388c5e981c:1442510200"
+< Last-Modified: Thu, 17 Sep 2015 16:55:38 GMT
+< Accept-Ranges: bytes
+< Content-Length: 3549733
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:43:01 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/auditrpt_2002_p_00006.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "79858d17653835f6c827cf24865e842d:1449850758"
+< Last-Modified: Fri, 11 Dec 2015 15:53:27 GMT
+< Accept-Ranges: bytes
+< Content-Length: 96134
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:17 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

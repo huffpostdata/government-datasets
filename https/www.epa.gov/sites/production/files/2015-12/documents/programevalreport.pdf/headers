@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/programevalreport.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "98dc919f6a9f20d43fe5f4bf0ce27fea:1449860928"
+< Last-Modified: Fri, 11 Dec 2015 18:49:14 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1019195
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:41:33 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

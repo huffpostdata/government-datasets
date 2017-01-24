@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/20031121_2003_financial_statement_audit.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "9601cc68655dbba904ed381426f6e538:1449078579"
+< Last-Modified: Wed, 02 Dec 2015 17:36:43 GMT
+< Accept-Ranges: bytes
+< Content-Length: 623470
+< Content-Type: application/pdf
+< Date: Tue, 24 Jan 2017 22:39:29 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

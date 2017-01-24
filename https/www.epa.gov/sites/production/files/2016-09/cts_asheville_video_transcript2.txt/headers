@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-09/cts_asheville_video_transcript2.txt
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a6e2da03cf8757ffc769af7c40cd539a:1474033133"
+< Last-Modified: Fri, 16 Sep 2016 13:35:10 GMT
+< Accept-Ranges: bytes
+< Content-Length: 2254
+< Content-Type: text/plain
+< Date: Tue, 24 Jan 2017 21:50:57 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.txt
