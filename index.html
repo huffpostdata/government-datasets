@@ -170,20 +170,12 @@ function fileToOriginalUrl(file) {
 
 function showFileHtml(file) {
   var url = fileToUrl(file);
-  var xhr = new XMLHttpRequest();
-
-  xhr.onload = function() {
-    var article = document.querySelector('article');
-    article.innerHTML = [
-      '<div class="html">',
-        '<iframe src="data:text/html;base64,', base64EncodeArrayBuffer(xhr.response), '"></iframe>',
-      '</div>'
-    ].join('');
-  };
-
-  xhr.open('get', url);
-  xhr.responseType = 'arraybuffer';
-  xhr.send();
+  var article = document.querySelector('article');
+  article.innerHTML = [
+    '<div class="html">',
+      '<iframe src="', url, '"></iframe>',
+    '</div>'
+  ].join('');
 }
 
 function showFilePdf(file) {
