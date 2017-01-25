@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-02/2010-inventory-chapter-tables.zip
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "08bc5891cc83c0aecb72abb921e9d3af:1456521095"
+< Last-Modified: Fri, 26 Feb 2016 20:50:30 GMT
+< Accept-Ranges: bytes
+< Content-Length: 217478
+< Content-Type: application/zip
+< Date: Wed, 25 Jan 2017 15:44:51 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

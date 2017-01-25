@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-02/2008-main-tables.zip
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "82886897f18fa560db573d9f2aabef34:1456521620"
+< Last-Modified: Fri, 26 Feb 2016 21:04:48 GMT
+< Accept-Ranges: bytes
+< Content-Length: 180646
+< Content-Type: application/zip
+< Date: Wed, 25 Jan 2017 15:45:24 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

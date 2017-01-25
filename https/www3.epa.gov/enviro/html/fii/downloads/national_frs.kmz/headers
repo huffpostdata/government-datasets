@@ -1,0 +1,16 @@
+GET https://www3.epa.gov/enviro/html/fii/downloads/national_frs.kmz
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 15:39:07 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; preload
+< Last-Modified: Tue, 08 Nov 2016 10:57:01 GMT
+< ETag: "4323da-540c8000aa05b"
+< Accept-Ranges: bytes
+< Content-Length: 4400090
+< Connection: close
+< Content-Type: application/vnd.google-earth.kmz
+
+wrote body.kmz

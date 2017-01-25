@@ -1,0 +1,20 @@
+GET https://www.epa.gov/enviro/epa-frs-facilities-state-single-file-csv-download
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< ETag: "a6bf-546e808bd4417"
+< Accept-Ranges: bytes
+< Content-Length: 42687
+< X-UA-Compatible: IE=Edge,chrome=1
+< X-Cached-By: Boost
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+< Expires: Wed, 25 Jan 2017 15:39:02 GMT
+< Date: Wed, 25 Jan 2017 15:39:02 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.html

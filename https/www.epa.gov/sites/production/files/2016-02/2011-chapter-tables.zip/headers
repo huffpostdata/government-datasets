@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-02/2011-chapter-tables.zip
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "84e2ba8d242343ed03f889f67ad0ae4d:1455749445"
+< Last-Modified: Wed, 17 Feb 2016 22:35:46 GMT
+< Accept-Ranges: bytes
+< Content-Length: 216093
+< Content-Type: application/zip
+< Date: Wed, 25 Jan 2017 15:44:31 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

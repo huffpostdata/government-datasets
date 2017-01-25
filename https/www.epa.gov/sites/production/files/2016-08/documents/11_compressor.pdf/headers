@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/11_compressor.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "50263e343273e7c8760ca945375d24f7:1470763187"
+< Last-Modified: Tue, 09 Aug 2016 16:52:15 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1527749
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:51:53 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

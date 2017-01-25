@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/508_complete_ghg_1990_2008.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a9e54abbc1a7347f0e08596be806d2de:1449523300"
+< Last-Modified: Mon, 07 Dec 2015 20:44:26 GMT
+< Accept-Ranges: bytes
+< Content-Length: 19699268
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:44:56 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/us-ghg-inventory-2014-annexes.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "335e869193fc956a359e0236ea2b1a99:1449523318"
+< Last-Modified: Mon, 07 Dec 2015 21:04:35 GMT
+< Accept-Ranges: bytes
+< Content-Length: 10623559
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:43:52 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

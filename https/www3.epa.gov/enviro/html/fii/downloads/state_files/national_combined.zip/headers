@@ -1,0 +1,16 @@
+GET https://www3.epa.gov/enviro/html/fii/downloads/state_files/national_combined.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 15:37:44 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; preload
+< Last-Modified: Tue, 08 Nov 2016 10:51:44 GMT
+< ETag: "2d1174e4-540c7ed23557e"
+< Accept-Ranges: bytes
+< Content-Length: 756118756
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

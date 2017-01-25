@@ -1,0 +1,16 @@
+GET http://www.eia.gov/energyexplained/index.cfm?page=electricity_in_the_united_states
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Server: Microsoft-IIS/7.0
+< X-UA-Compatible: IE=EmulateIE8
+< X-Powered-By: ASP.NET
+< Cache-Control: private, max-age=530099
+< Date: Wed, 25 Jan 2017 15:50:08 GMT
+< Transfer-Encoding: chunked
+< Connection: close
+< Connection: Transfer-Encoding
+
+wrote body.html

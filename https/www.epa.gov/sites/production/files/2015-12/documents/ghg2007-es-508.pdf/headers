@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/ghg2007-es-508.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "d99212bc68aafbfa8df242857e624d3d:1449523301"
+< Last-Modified: Mon, 07 Dec 2015 20:41:40 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1320820
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:45:11 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

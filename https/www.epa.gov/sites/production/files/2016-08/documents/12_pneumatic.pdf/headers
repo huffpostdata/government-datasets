@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/12_pneumatic.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "fec194cc8fe8598b66f7f86b2fe9d62e:1470763188"
+< Last-Modified: Tue, 09 Aug 2016 16:53:16 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1545232
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:51:54 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

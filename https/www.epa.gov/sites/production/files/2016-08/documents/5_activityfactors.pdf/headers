@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/5_activityfactors.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "c23a3c2fc2191faaf6d995b9a88a0468:1470763190"
+< Last-Modified: Tue, 09 Aug 2016 16:47:05 GMT
+< Accept-Ranges: bytes
+< Content-Length: 2592089
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:51:42 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

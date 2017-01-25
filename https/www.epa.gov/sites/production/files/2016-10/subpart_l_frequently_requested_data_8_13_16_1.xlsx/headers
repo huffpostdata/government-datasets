@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-10/subpart_l_frequently_requested_data_8_13_16_1.xlsx
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "69f06fc9ba2f0dca7caf0f054170b4b6:1475774447"
+< Last-Modified: Thu, 06 Oct 2016 17:00:22 GMT
+< Accept-Ranges: bytes
+< Content-Length: 795408
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Date: Wed, 25 Jan 2017 14:58:23 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.xlsx

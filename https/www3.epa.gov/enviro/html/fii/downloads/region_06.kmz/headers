@@ -1,0 +1,16 @@
+GET https://www3.epa.gov/enviro/html/fii/downloads/region_06.kmz
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 14:58:40 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; preload
+< Last-Modified: Tue, 08 Nov 2016 10:57:02 GMT
+< ETag: "72b3d-540c800108045"
+< Accept-Ranges: bytes
+< Content-Length: 469821
+< Connection: close
+< Content-Type: application/vnd.google-earth.kmz
+
+wrote body.kmz

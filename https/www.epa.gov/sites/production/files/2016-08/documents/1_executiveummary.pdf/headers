@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/1_executiveummary.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "b2a77b5382cf5822cd12228b312f909c:1470755765"
+< Last-Modified: Tue, 09 Aug 2016 14:53:32 GMT
+< Accept-Ranges: bytes
+< Content-Length: 494870
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:51:34 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-03/documents/us-ghg-inventory-2015-chapter-executive-summary.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a3f4ea0ae88ec1461c57a6110776db64:1457733143"
+< Last-Modified: Fri, 11 Mar 2016 21:23:10 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1213484
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:43:30 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/15_gasassisted.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "97cffbd7106f7407bba078ecd142d4c9:1470763188"
+< Last-Modified: Tue, 09 Aug 2016 16:55:38 GMT
+< Accept-Ranges: bytes
+< Content-Length: 615334
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:51:59 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

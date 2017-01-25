@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-02/1990-2007-main-tables.zip
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "a166697c00e3f8266b69bc2a219ab706:1456521620"
+< Last-Modified: Fri, 26 Feb 2016 20:58:40 GMT
+< Accept-Ranges: bytes
+< Content-Length: 219413
+< Content-Type: application/zip
+< Date: Wed, 25 Jan 2017 15:45:09 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

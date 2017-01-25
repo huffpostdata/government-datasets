@@ -1,0 +1,16 @@
+GET https://www3.epa.gov/enviro/html/fii/downloads/EPAFileGdbDownload.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 15:04:27 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; preload
+< Last-Modified: Fri, 15 Jul 2016 19:17:30 GMT
+< ETag: "23bfd2e0-537b178440346"
+< Accept-Ranges: bytes
+< Content-Length: 599773920
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

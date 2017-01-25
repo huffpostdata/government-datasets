@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-08/documents/13_chemical.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "70371d0f8386f4f5c4726b7429cf1eac:1470763188"
+< Last-Modified: Tue, 09 Aug 2016 16:54:04 GMT
+< Accept-Ranges: bytes
+< Content-Length: 753243
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:51:56 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

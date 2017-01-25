@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/us_ghg_inv_annexes_1990-2007.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "b0843d4c72d5d15e6db254b276806af1:1449523319"
+< Last-Modified: Mon, 07 Dec 2015 20:38:43 GMT
+< Accept-Ranges: bytes
+< Content-Length: 6217109
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:45:20 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

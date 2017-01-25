@@ -77,7 +77,7 @@ function loadOigIndex(url, callback) {
     if (err) return callback(err)
 
     const urls = []
-    $('table a').each((i, a) => {
+    $('table a, li>em>a').each((i, a) => {
       const href = $(a).attr('href')
       urls.push(hrefToUrl(href))
     })
@@ -122,30 +122,32 @@ function listOigReports(url, callback) {
 }
 
 const OigReportIndexPages = [
-  'https://www.epa.gov/office-inspector-general/2016-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2015-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2014-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2013-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2012-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2011-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2010-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2009-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2008-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2007-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2006-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2005-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2004-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2003-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2002-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2001-oig-reports',
-  'https://www.epa.gov/office-inspector-general/2000-oig-reports',
-  'https://www.epa.gov/office-inspector-general/planning-and-performance-documents'
+//  'https://www.epa.gov/office-inspector-general/2016-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2015-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2014-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2013-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2012-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2011-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2010-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2009-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2008-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2007-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2006-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2005-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2004-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2003-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2002-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2001-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/2000-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/planning-and-performance-documents',
+//  'https://www.epa.gov/ghgemissions/us-greenhouse-gas-inventory-report-archive'
 ]
 
 const OigReportPdfIndexPages = [
-  'https://www.epa.gov/office-inspector-general/1999-1996-oig-reports',
-  'https://www.epa.gov/office-inspector-general/congressionally-requested-oig-reports',
-  'https://www.epa.gov/office-inspector-general/oig-reports-chemical-safety-board'
+//  'https://www.epa.gov/office-inspector-general/1999-1996-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/congressionally-requested-oig-reports',
+//  'https://www.epa.gov/office-inspector-general/oig-reports-chemical-safety-board',
+  'https://www.epa.gov/natural-gas-star-program/methane-emissions-natural-gas-industry'
 ]
 
 function loadAllOigReportUrls(callback) {

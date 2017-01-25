@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-02/usa-2013-crf-v1.1.zip
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "963d076db14a67d0d864938d2491e073:1455749446"
+< Last-Modified: Wed, 17 Feb 2016 22:21:10 GMT
+< Accept-Ranges: bytes
+< Content-Length: 8377325
+< Content-Type: application/zip
+< Date: Wed, 25 Jan 2017 15:43:57 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

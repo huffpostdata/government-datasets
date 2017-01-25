@@ -1,0 +1,16 @@
+GET https://www3.epa.gov/enviro/html/fii/downloads/state_files/EPAXMLDownload.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 15:39:14 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; preload
+< Last-Modified: Tue, 08 Nov 2016 10:51:23 GMT
+< ETag: "ce89ce-540c7ebe34728"
+< Accept-Ranges: bytes
+< Content-Length: 13535694
+< Connection: close
+< Content-Type: application/zip
+
+wrote body.zip

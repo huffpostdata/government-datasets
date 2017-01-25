@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/ghg-inventory-public-comments_1990-2009.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "fb2bb88ae72ccc69b101567fe53ab5c5:1449523301"
+< Last-Modified: Mon, 07 Dec 2015 20:52:21 GMT
+< Accept-Ranges: bytes
+< Content-Length: 8127426
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:44:45 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf

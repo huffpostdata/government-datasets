@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-03/us-greenhouse-gas-inventory-2015-main-report-tables_1.zip
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "957f44d1ea6cd1a29b5387df766c50ca:1457733140"
+< Last-Modified: Fri, 11 Mar 2016 21:42:43 GMT
+< Accept-Ranges: bytes
+< Content-Length: 245667
+< Content-Type: application/zip
+< Date: Wed, 25 Jan 2017 15:43:27 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

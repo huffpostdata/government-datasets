@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-09/e_o_s_cems_bb_cc_ll_full_data_set_8-13-2016.xlsx
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "0126ebbeb679f90a49043c590521a572:1474563092"
+< Last-Modified: Thu, 22 Sep 2016 16:48:24 GMT
+< Accept-Ranges: bytes
+< Content-Length: 41806
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Date: Wed, 25 Jan 2017 14:58:25 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.xlsx

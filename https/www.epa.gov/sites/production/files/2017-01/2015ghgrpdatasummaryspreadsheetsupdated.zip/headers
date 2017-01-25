@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2017-01/2015ghgrpdatasummaryspreadsheetsupdated.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "90f416ba8dd4aaf5721dca5d4f40ca7f:1483638852"
+< Last-Modified: Thu, 05 Jan 2017 17:19:54 GMT
+< Accept-Ranges: bytes
+< Content-Length: 17086966
+< Content-Type: application/zip
+< Date: Wed, 25 Jan 2017 14:58:26 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.zip

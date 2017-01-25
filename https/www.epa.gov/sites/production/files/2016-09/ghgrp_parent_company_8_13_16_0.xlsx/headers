@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2016-09/ghgrp_parent_company_8_13_16_0.xlsx
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Server: Apache
+< ETag: "d7409ec439a757d3505bf57e2860a942:1474563095"
+< Last-Modified: Thu, 22 Sep 2016 16:43:48 GMT
+< Accept-Ranges: bytes
+< Content-Length: 5388682
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Date: Wed, 25 Jan 2017 14:58:19 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.xlsx

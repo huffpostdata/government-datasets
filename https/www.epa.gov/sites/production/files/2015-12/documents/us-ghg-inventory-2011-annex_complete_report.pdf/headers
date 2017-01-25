@@ -1,0 +1,16 @@
+GET https://www.epa.gov/sites/production/files/2015-12/documents/us-ghg-inventory-2011-annex_complete_report.pdf
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< ETag: "2f3f1cbd4bd9b9d142c36b8b1d08deff:1449523314"
+< Last-Modified: Mon, 07 Dec 2015 20:48:46 GMT
+< Accept-Ranges: bytes
+< Content-Length: 8034300
+< Content-Type: application/pdf
+< Date: Wed, 25 Jan 2017 15:44:41 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.pdf
