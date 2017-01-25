@@ -1,0 +1,7 @@
+GET long/uv/cities/2003/JAN_03.dat
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.dat
