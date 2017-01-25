@@ -1,0 +1,16 @@
+GET https://www3.epa.gov/climatechange/ghgemissions/inventoryexplorer/data_explorer_flight.html
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 19:31:08 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; preload
+< Last-Modified: Tue, 09 Aug 2016 19:06:30 GMT
+< ETag: "60d2-539a83af8c2ce"
+< Accept-Ranges: bytes
+< Content-Length: 24786
+< Connection: close
+< Content-Type: text/html
+
+wrote body.html
