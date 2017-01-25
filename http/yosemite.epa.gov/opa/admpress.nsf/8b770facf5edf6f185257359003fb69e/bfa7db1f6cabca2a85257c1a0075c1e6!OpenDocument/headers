@@ -1,0 +1,12 @@
+GET http://yosemite.epa.gov/opa/admpress.nsf/8b770facf5edf6f185257359003fb69e/bfa7db1f6cabca2a85257c1a0075c1e6!OpenDocument
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 302 Found
+< Server: Lotus-Domino
+< Date: Wed, 25 Jan 2017 17:25:54 GMT
+< Connection: close
+< Location: https://yosemite.epa.gov/opa/admpress.nsf/8b770facf5edf6f185257359003fb69e/bfa7db1f6cabca2a85257c1a0075c1e6!OpenDocument
+< Content-Length: 0
+
+wrote no content

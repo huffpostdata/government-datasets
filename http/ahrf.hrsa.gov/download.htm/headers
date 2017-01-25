@@ -1,0 +1,16 @@
+GET http://ahrf.hrsa.gov/download.htm
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Length: 18896
+< Content-Type: text/html
+< Last-Modified: Mon, 15 Aug 2016 12:34:02 GMT
+< Accept-Ranges: bytes
+< ETag: "564a74ef1f6d11:9644"
+< Server: Microsoft-IIS/6.0
+< X-Powered-By: ASP.NET
+< Date: Wed, 25 Jan 2017 17:22:45 GMT
+< Connection: close
+
+wrote body.html

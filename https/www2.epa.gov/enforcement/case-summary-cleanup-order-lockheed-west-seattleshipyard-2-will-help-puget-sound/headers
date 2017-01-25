@@ -1,0 +1,13 @@
+GET https://www2.epa.gov/enforcement/case-summary-cleanup-order-lockheed-west-seattleshipyard-2-will-help-puget-sound
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 302 Moved Temporarily
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://www.epa.gov/enforcement/case-summary-cleanup-order-lockheed-west-seattleshipyard-2-will-help-puget-sound
+< Date: Wed, 25 Jan 2017 17:21:48 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote no content

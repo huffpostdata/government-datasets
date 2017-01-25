@@ -1,0 +1,15 @@
+GET https://cfpub.epa.gov/enforcement/cases/
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 16:52:56 GMT
+< Server: Apache/2.2.32 (Win32) mod_ssl/2.2.32 OpenSSL/1.0.2j mod_jk/1.2.41 mod_security2/2.7.6
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< X-UA-Compatible: IE=edge,chrome=1
+< X-UA-Compatible: IE=edge,chrome=1
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: text/html;charset=UTF-8
+
+wrote body.html

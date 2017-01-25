@@ -1,0 +1,19 @@
+GET https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400503
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 17:27:10 GMT
+< Server: Apache/2.4.23 (Win64) OpenSSL/1.0.2j mod_jk/1.2.41
+< Strict-Transport-Security: max-age=300; includeSubdomains; preload
+< Set-Cookie: CFID=2934344; Expires=Thu, 26-Jan-2017 17:27:10 GMT; Path=/; HttpOnly
+< Set-Cookie: CFTOKEN=75819757; Expires=Thu, 26-Jan-2017 17:27:10 GMT; Path=/; HttpOnly
+< Set-Cookie: CFID=2934344; Path=/
+< Set-Cookie: CFTOKEN=75819757; Path=/
+< Set-Cookie: CFID=2934344; Path=/
+< Set-Cookie: CFTOKEN=75819757; Path=/
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: text/html;charset=UTF-8
+
+wrote body.html

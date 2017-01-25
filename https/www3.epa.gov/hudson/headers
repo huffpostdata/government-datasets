@@ -1,0 +1,14 @@
+GET https://www3.epa.gov/hudson
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Date: Wed, 25 Jan 2017 17:42:57 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; preload
+< Location: https://www3.epa.gov/hudson/
+< Content-Length: 236
+< Connection: close
+< Content-Type: text/html; charset=iso-8859-1
+
+wrote no content

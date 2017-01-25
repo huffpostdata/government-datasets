@@ -1,0 +1,17 @@
+GET https://datawarehouse.hrsa.gov/DataDownload/AHRF/AHRF_USER_TECH_2015-2016.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Mon, 25 Jul 2016 16:50:50 GMT
+< Accept-Ranges: bytes
+< ETag: "051d0b294e6d11:0"
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Wed, 25 Jan 2017 17:22:41 GMT
+< Connection: close
+< Content-Length: 749357
+
+wrote body.zip

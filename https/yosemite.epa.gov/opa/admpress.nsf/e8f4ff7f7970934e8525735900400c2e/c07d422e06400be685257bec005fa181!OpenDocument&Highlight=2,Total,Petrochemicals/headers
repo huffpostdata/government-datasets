@@ -1,0 +1,16 @@
+GET https://yosemite.epa.gov/opa/admpress.nsf/e8f4ff7f7970934e8525735900400c2e/c07d422e06400be685257bec005fa181!OpenDocument&Highlight=2,Total,Petrochemicals
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Lotus-Domino
+< Date: Wed, 25 Jan 2017 17:25:47 GMT
+< Connection: close
+< Last-Modified: Wed, 25 Jan 2017 17:25:46 GMT
+< Content-Type: text/html; charset=ISO-8859-1
+< Content-Length: 18812
+< Cache-control: no-cache
+< Strict-Transport-Security: max-age=604800
+< Expires: Mon, 30 Jan 2017 23:59:59 GMT
+
+wrote body.html

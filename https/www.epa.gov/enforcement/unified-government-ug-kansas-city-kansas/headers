@@ -1,0 +1,20 @@
+GET https://www.epa.gov/enforcement/unified-government-ug-kansas-city-kansas
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< ETag: "71de-546e9eb643778"
+< Accept-Ranges: bytes
+< Content-Length: 29150
+< X-UA-Compatible: IE=Edge,chrome=1
+< X-Cached-By: Boost
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+< Expires: Wed, 25 Jan 2017 17:28:10 GMT
+< Date: Wed, 25 Jan 2017 17:28:10 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.html

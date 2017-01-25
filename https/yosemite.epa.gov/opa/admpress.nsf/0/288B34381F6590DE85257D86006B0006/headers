@@ -1,0 +1,16 @@
+GET https://yosemite.epa.gov/opa/admpress.nsf/0/288B34381F6590DE85257D86006B0006
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Lotus-Domino
+< Date: Wed, 25 Jan 2017 17:22:42 GMT
+< Connection: close
+< Last-Modified: Wed, 25 Jan 2017 17:22:40 GMT
+< Content-Type: text/html; charset=ISO-8859-1
+< Content-Length: 15944
+< Cache-control: no-cache
+< Strict-Transport-Security: max-age=604800
+< Expires: Mon, 30 Jan 2017 23:59:59 GMT
+
+wrote body.html

@@ -1,0 +1,13 @@
+GET http://www2.epa.gov/enforcement/case-summary-teck-agrees-clean-lead-contaminated-residential-and-allotment-properties
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://www2.epa.gov/enforcement/case-summary-teck-agrees-clean-lead-contaminated-residential-and-allotment-properties
+< Date: Wed, 25 Jan 2017 17:20:01 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote no content

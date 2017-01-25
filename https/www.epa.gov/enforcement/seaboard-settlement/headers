@@ -1,0 +1,20 @@
+GET https://www.epa.gov/enforcement/seaboard-settlement
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< ETag: "5ad4-546e9dd646dbf"
+< Accept-Ranges: bytes
+< Content-Length: 23252
+< X-UA-Compatible: IE=Edge,chrome=1
+< X-Cached-By: Boost
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+< Expires: Wed, 25 Jan 2017 17:42:43 GMT
+< Date: Wed, 25 Jan 2017 17:42:43 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.html

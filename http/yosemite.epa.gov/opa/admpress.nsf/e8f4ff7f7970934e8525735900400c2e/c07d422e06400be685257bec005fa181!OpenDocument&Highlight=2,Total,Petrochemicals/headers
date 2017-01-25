@@ -1,0 +1,12 @@
+GET http://yosemite.epa.gov/opa/admpress.nsf/e8f4ff7f7970934e8525735900400c2e/c07d422e06400be685257bec005fa181!OpenDocument&Highlight=2,Total,Petrochemicals
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 302 Found
+< Server: Lotus-Domino
+< Date: Wed, 25 Jan 2017 17:26:17 GMT
+< Connection: close
+< Location: https://yosemite.epa.gov/opa/admpress.nsf/e8f4ff7f7970934e8525735900400c2e/c07d422e06400be685257bec005fa181!OpenDocument&Highlight=2,Total,Petrochemicals
+< Content-Length: 0
+
+wrote no content

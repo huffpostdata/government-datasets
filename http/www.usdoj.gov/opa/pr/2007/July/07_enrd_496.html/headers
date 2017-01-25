@@ -1,0 +1,14 @@
+GET http://www.usdoj.gov/opa/pr/2007/July/07_enrd_496.html
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 302 Found
+< Date: Wed, 25 Jan 2017 17:41:56 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000;
+< Location: https://www.justice.gov/opa/pr/2007/July/07_enrd_496.html
+< Content-Length: 304
+< Connection: close
+< Content-Type: text/html; charset=iso-8859-1
+
+wrote no content

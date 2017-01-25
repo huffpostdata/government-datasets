@@ -1,0 +1,16 @@
+GET https://www.epa.gov/region4/superfund/sites/npl/florida/coroifl.html
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Server: Apache
+< Location: https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400503
+< Content-Length: 274
+< Content-Type: text/html; charset=iso-8859-1
+< Cache-Control: max-age=14400
+< Expires: Wed, 25 Jan 2017 21:27:46 GMT
+< Date: Wed, 25 Jan 2017 17:27:46 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote no content

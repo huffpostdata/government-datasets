@@ -77,7 +77,7 @@ function loadOigIndex(url, callback) {
     if (err) return callback(err)
 
     const urls = []
-    $('table a, li>em>a').each((i, a) => {
+    $('table:not(.caseList) td a, li>em>a').each((i, a) => {
       const href = $(a).attr('href')
       urls.push(hrefToUrl(href))
     })
@@ -95,6 +95,27 @@ function loadOigIndex(url, callback) {
 // * https://www.epa.gov/sites/production/files/2016-01/documents/20160107-16-p-0081.pdf
 function loadOigMeta(url, callback) {
   debug(`Loading report meta page ${url}`)
+
+  if (/^https:\/\/wcms.epa.gov\//.test(url)) {
+    // wcms.epa.gov is offline, 2017-01-25
+    return callback(null, [])
+  }
+
+  if (url === 'http://yosemite.epa.gov/opa/admpress.nsf/ab2d81eb088f4a7e85257359003f5339/a92f0469be6fffa485257e6f005cc42f!OpenDocument') {
+    // 404, 2017-01-25
+    return callback(null, [])
+  }
+
+  if (url === 'http://yosemite.epa.gov/opa/admpress.nsf/0/BA80C6224532DA6085257DE0006A2E70') {
+    // 404, 2017-01-25
+    return callback(null, [])
+  }
+
+  if (url === 'http://www.epa.gov/compliance/resources/cases/civil/cwa/cityofevansville.html') {
+    // 404, 2017-01-25
+    return callback(null, [])
+  }
+
   urlToCheerio(url, (err, $) => {
     if (err) return callback(err)
 
@@ -140,14 +161,15 @@ const OigReportIndexPages = [
 //  'https://www.epa.gov/office-inspector-general/2001-oig-reports',
 //  'https://www.epa.gov/office-inspector-general/2000-oig-reports',
 //  'https://www.epa.gov/office-inspector-general/planning-and-performance-documents',
-//  'https://www.epa.gov/ghgemissions/us-greenhouse-gas-inventory-report-archive'
+//  'https://www.epa.gov/ghgemissions/us-greenhouse-gas-inventory-report-archive',
+  'https://cfpub.epa.gov/enforcement/cases/' // The "meta" pages have actual info and no links to PDFs; this code happens to capture what we want
 ]
 
 const OigReportPdfIndexPages = [
 //  'https://www.epa.gov/office-inspector-general/1999-1996-oig-reports',
 //  'https://www.epa.gov/office-inspector-general/congressionally-requested-oig-reports',
 //  'https://www.epa.gov/office-inspector-general/oig-reports-chemical-safety-board',
-  'https://www.epa.gov/natural-gas-star-program/methane-emissions-natural-gas-industry'
+//  'https://www.epa.gov/natural-gas-star-program/methane-emissions-natural-gas-industry'
 ]
 
 function loadAllOigReportUrls(callback) {

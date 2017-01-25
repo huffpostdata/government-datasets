@@ -1,0 +1,20 @@
+GET https://www.epa.gov/enforcement/district-columbia-water-and-sewer-authority-district-columbia-clean-water-settlement
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< ETag: "75e6-546e7867bc78b"
+< Accept-Ranges: bytes
+< Content-Length: 30182
+< X-UA-Compatible: IE=Edge,chrome=1
+< X-Cached-By: Boost
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+< Expires: Wed, 25 Jan 2017 17:21:43 GMT
+< Date: Wed, 25 Jan 2017 17:21:43 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.html

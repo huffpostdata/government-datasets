@@ -1,0 +1,13 @@
+GET https://www2.epa.gov/enforcement/home-depot-clean-water-settlement
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 302 Moved Temporarily
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://www.epa.gov/enforcement/home-depot-clean-water-settlement
+< Date: Wed, 25 Jan 2017 17:41:30 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote no content

@@ -1,0 +1,20 @@
+GET https://www.epa.gov/enforcement/case-summary-epa-orders-fmc-perform-57-million-cleanup-action-former-phosphorus-0
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Location: https://www.epa.gov/enforcement/case-summary-epa-orders-fmc-perform-57-million-cleanup-action-former-phosphorus
+< X-Redirect-ID: 238843
+< X-UA-Compatible: IE=Edge,chrome=1
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-cache, must-revalidate
+< Expires: Wed, 25 Jan 2017 17:27:26 GMT
+< Date: Wed, 25 Jan 2017 17:27:26 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote no content

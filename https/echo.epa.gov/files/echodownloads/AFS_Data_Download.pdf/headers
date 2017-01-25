@@ -1,0 +1,23 @@
+GET https://echo.epa.gov/files/echodownloads/AFS_Data_Download.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 17:14:37 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< X-Content-Type-Options: nosniff
+< Last-Modified: Tue, 24 Feb 2015 15:58:59 GMT
+< ETag: "373b9-50fd798c536c0"
+< Accept-Ranges: bytes
+< Content-Length: 226233
+< Cache-Control: max-age=604800
+< Expires: Wed, 01 Feb 2017 17:14:37 GMT
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: X-Requested-With
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< Content-Type: application/pdf
+< X-Hostname: wamwebprd2.epa.gov
+< Connection: close
+
+wrote body.pdf

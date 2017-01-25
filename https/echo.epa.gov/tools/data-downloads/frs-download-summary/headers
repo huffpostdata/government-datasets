@@ -1,0 +1,25 @@
+GET https://echo.epa.gov/tools/data-downloads/frs-download-summary
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 16:52:23 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< X-Content-Type-Options: nosniff
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Cache-Control: no-cache, must-revalidate
+< X-Content-Type-Options: nosniff
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+< Link: </node/203>; rel="shortlink",</tools/data-downloads/frs-download-summary>; rel="canonical"
+< X-Generator: Drupal 7 (http://drupal.org)
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: X-Requested-With
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< Content-Type: text/html; charset=utf-8
+< X-Hostname: wamwebprd2.epa.gov
+< Connection: close
+< Transfer-Encoding: chunked
+
+wrote body.html

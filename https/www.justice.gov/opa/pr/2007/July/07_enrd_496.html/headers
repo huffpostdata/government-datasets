@@ -1,0 +1,14 @@
+GET https://www.justice.gov/opa/pr/2007/July/07_enrd_496.html
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Server: Apache
+< Location: https://www.justice.gov/archive/opa/pr/2007/July/07_enrd_496.html
+< Content-Length: 338
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 25 Jan 2017 17:41:56 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000;
+
+wrote no content

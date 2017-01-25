@@ -1,0 +1,13 @@
+GET http://www2.epa.gov/enforcement/dominion-energy-inc
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://www2.epa.gov/enforcement/dominion-energy-inc
+< Date: Wed, 25 Jan 2017 17:28:00 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote no content

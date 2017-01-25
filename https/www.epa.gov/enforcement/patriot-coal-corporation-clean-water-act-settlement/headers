@@ -1,0 +1,22 @@
+GET https://www.epa.gov/enforcement/patriot-coal-corporation-clean-water-act-settlement
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 200 OK
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+< X-Generator: Drupal 7 (http://drupal.org)
+< Link: <https://www.epa.gov/enforcement/patriot-coal-corporation-clean-water-act-settlement>; rel="canonical",<https://www.epa.gov/node/33833>; rel="shortlink"
+< X-UA-Compatible: IE=Edge,chrome=1
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 38610
+< Cache-Control: no-cache, must-revalidate
+< Expires: Wed, 25 Jan 2017 17:40:15 GMT
+< Date: Wed, 25 Jan 2017 17:40:15 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote body.html

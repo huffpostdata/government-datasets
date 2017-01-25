@@ -1,0 +1,23 @@
+GET https://echo.epa.gov/files/echodownloads/npdes_eff_downloads.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 16:20:47 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< X-Content-Type-Options: nosniff
+< Last-Modified: Sun, 22 Jan 2017 07:31:15 GMT
+< ETag: "3fb20430-546a9de3536c0"
+< Accept-Ranges: bytes
+< Content-Length: 1068631088
+< Cache-Control: max-age=604800
+< Expires: Wed, 01 Feb 2017 16:20:47 GMT
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: X-Requested-With
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< Content-Type: application/zip
+< X-Hostname: wamwebprd2.epa.gov
+< Connection: close
+
+wrote body.zip

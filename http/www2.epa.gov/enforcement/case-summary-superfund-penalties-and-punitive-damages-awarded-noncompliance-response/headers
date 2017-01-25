@@ -1,0 +1,13 @@
+GET http://www2.epa.gov/enforcement/case-summary-superfund-penalties-and-punitive-damages-awarded-noncompliance-response
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://www2.epa.gov/enforcement/case-summary-superfund-penalties-and-punitive-damages-awarded-noncompliance-response
+< Date: Wed, 25 Jan 2017 17:25:08 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote no content

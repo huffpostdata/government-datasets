@@ -1,0 +1,21 @@
+GET https://echo.epa.gov/system/files/20160622_ICIS-Air%20State%20Migration%20and%20EDT%20Readiness%20Summary%20Submissions.xlsx
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 16:07:50 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< X-Content-Type-Options: nosniff
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Cache-Control: private
+< X-Content-Type-Options: nosniff
+< Content-Length: 14173
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: X-Requested-With
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< X-Hostname: wamwebprd2.epa.gov
+< Connection: close
+
+wrote body.xlsx

@@ -1,0 +1,20 @@
+GET https://www.epa.gov/enforcement/case-summary-settlement-agreement-results-innovate-cleanup-addressing-vapor-intrusion
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Location: https://www.epa.gov/enforcement/case-summary-settlement-agreement-results-innovative-cleanup-addressing-vapor-intrusion
+< X-Redirect-ID: 306927
+< X-UA-Compatible: IE=Edge,chrome=1
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-cache, must-revalidate
+< Expires: Wed, 25 Jan 2017 17:18:21 GMT
+< Date: Wed, 25 Jan 2017 17:18:21 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+
+wrote no content

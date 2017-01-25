@@ -1,0 +1,21 @@
+GET https://echo.epa.gov/system/files/Final%20SRF%20CWA%20Metric%20Spreadsheet%20for%20the%20Public%207-2-2009.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Wed, 25 Jan 2017 16:06:52 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< X-Content-Type-Options: nosniff
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Cache-Control: private
+< X-Content-Type-Options: nosniff
+< Content-Length: 43387
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: X-Requested-With
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< Content-Type: application/pdf
+< X-Hostname: wamwebprd2.epa.gov
+< Connection: close
+
+wrote body.pdf

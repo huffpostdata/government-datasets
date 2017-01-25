@@ -1,0 +1,14 @@
+GET http://www2.epa.gov/enforcement/cf-industries-inc-settlement
+
+> User-Agent: Huffington Post scraper; please contact adam.hooper@huffingtonpost.com if it inconveniences you
+
+< Status 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://www2.epa.gov/enforcement/cf-industries-inc-settlement
+< Date: Wed, 25 Jan 2017 17:38:46 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload;
+< X-N: S
+
+wrote no content
