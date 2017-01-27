@@ -1,0 +1,16 @@
+GET https://www2.ed.gov/about/offices/list/ocr/docs/crdc-2013-14-all-schools-form.doc
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:38:40 GMT
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Tue, 08 Jul 2014 19:53:20 GMT
+< ETag: "794fa-12ea00-4fdb3f1876c00"
+< Accept-Ranges: bytes
+< Content-Length: 1239552
+< Connection: close
+< Content-Type: application/msword
+< Strict-Transport-Security: max-age=7200
+
+wrote body.doc

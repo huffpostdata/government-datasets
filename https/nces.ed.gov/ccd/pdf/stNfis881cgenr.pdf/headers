@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/pdf/stNfis881cgenr.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Fri, 09 Jul 2004 17:40:19 GMT
+< Accept-Ranges: bytes
+< ETag: "b05dd1cddb65c41:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:19:33 GMT
+< Connection: close
+< Content-Length: 162594
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/Data/zip/stnonfis081cgen.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Mon, 20 Dec 2010 23:03:05 GMT
+< Accept-Ranges: bytes
+< ETag: "76aa5df9aa0cb1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:16:40 GMT
+< Connection: close
+< Content-Length: 959758
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

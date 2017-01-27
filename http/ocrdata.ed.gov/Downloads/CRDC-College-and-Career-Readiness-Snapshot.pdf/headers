@@ -1,0 +1,19 @@
+GET http://ocrdata.ed.gov/Downloads/CRDC-College-and-Career-Readiness-Snapshot.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Mon, 17 Nov 2014 21:59:10 GMT
+< Accept-Ranges: bytes
+< ETag: "04b36b7b12d01:0"
+< Server: Microsoft-IIS/8.5
+< X-Ocr: 400
+< X-Frame-Options: DENY
+< X-XSS-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff 
+< Date: Thu, 26 Jan 2017 17:38:26 GMT
+< Connection: close
+< Content-Length: 2798538
+
+wrote body.pdf

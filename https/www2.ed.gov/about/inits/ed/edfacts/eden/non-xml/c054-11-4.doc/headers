@@ -1,0 +1,16 @@
+GET https://www2.ed.gov/about/inits/ed/edfacts/eden/non-xml/c054-11-4.doc
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 21:26:55 GMT
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 03 Dec 2015 19:01:26 GMT
+< ETag: "8626d-57a00-526030482ed80"
+< Accept-Ranges: bytes
+< Content-Length: 358912
+< Connection: close
+< Content-Type: application/msword
+< Strict-Transport-Security: max-age=7200
+
+wrote body.doc

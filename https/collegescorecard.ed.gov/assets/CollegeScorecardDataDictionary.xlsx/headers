@@ -1,0 +1,18 @@
+GET https://collegescorecard.ed.gov/assets/CollegeScorecardDataDictionary.xlsx
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Content-Length: 292104
+< Connection: close
+< Date: Sat, 14 Jan 2017 16:02:51 GMT
+< Cache-Control: max-age=60
+< Last-Modified: Fri, 13 Jan 2017 20:24:50 GMT
+< ETag: "21d28b7467f3db5a9d3a69c249820759"
+< Server: AmazonS3
+< X-Cache: RefreshHit from cloudfront
+< Via: 1.1 3847afea4c7772c5c3865860bb8c0b78.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: P0xsvxPNaJl-oqViksso_AFKhZXoGhIo1lE9Xm-_Aptl9cWBbW-NlA==
+
+wrote body.xlsx

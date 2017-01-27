@@ -1,0 +1,18 @@
+GET https://collegescorecard.ed.gov/assets/FullDataDocumentation.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Content-Length: 734814
+< Connection: close
+< Date: Thu, 26 Jan 2017 21:40:03 GMT
+< Cache-Control: max-age=60
+< Last-Modified: Fri, 13 Jan 2017 20:24:50 GMT
+< ETag: "21f92bbcfc8a4e5d796c30453d77c43c"
+< Server: AmazonS3
+< X-Cache: Miss from cloudfront
+< Via: 1.1 181519cf8bb6eafae0aa41bbc20fb8b1.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: q45GK-PwKakNSeHUBWxBLW1ochgsmkLOcWzM0immpgJ8s1gx-MXFtQ==
+
+wrote body.pdf

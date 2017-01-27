@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/surveys/pss/pdf/CODEBOOK_8990.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 04 Oct 2007 19:00:28 GMT
+< Accept-Ranges: bytes
+< ETag: "02ef7d3b86c81:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:14:00 GMT
+< Connection: close
+< Content-Length: 140091
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/Data/txt/st111a_imp.txt
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: text/plain
+< Last-Modified: Tue, 01 Apr 2014 17:56:17 GMT
+< Accept-Ranges: bytes
+< ETag: "dbb677aed34dcf1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:21:21 GMT
+< Connection: close
+< Content-Length: 21824
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.txt

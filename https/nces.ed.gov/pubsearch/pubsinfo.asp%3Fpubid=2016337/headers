@@ -1,0 +1,20 @@
+GET https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2016337
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Cache-Control: private,no-cache
+< Pragma: no-cache
+< Content-Length: 29859
+< Content-Type: text/html
+< Expires: Wed, 25 Jan 2017 21:33:24 GMT
+< Last-Modified: Tue, 15 Nov 2016 12:00:00 GMT
+< Server: Microsoft-IIS/8.0
+< Set-Cookie: ASPSESSIONIDQCSDQARC=AMGANEEAHIFNMPLECPGGFAAB; path=/
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 21:33:24 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.html

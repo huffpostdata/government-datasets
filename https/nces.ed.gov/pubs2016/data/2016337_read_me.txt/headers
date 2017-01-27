@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2016/data/2016337_read_me.txt
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: text/plain
+< Last-Modified: Tue, 19 Apr 2016 11:11:22 GMT
+< Accept-Ranges: bytes
+< ETag: "06978342c9ad11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 21:34:07 GMT
+< Connection: close
+< Content-Length: 1661
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.txt

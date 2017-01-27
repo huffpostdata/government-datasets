@@ -1,0 +1,16 @@
+GET https://www2.ed.gov/policy/gen/guid/school-discipline/images/2013-14-crdc-corporal-punishment-map-1200.png
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:37:54 GMT
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Mon, 21 Nov 2016 18:47:00 GMT
+< ETag: "19d1e-a58de-541d414b79100"
+< Accept-Ranges: bytes
+< Content-Length: 678110
+< Connection: close
+< Content-Type: image/png
+< Strict-Transport-Security: max-age=7200
+
+wrote body.png

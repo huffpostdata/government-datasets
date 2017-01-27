@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/pdf/pau01gen.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Mon, 28 Apr 2003 15:10:56 GMT
+< Accept-Ranges: bytes
+< ETag: "7e1f445e98dc31:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:47:43 GMT
+< Connection: close
+< Content-Length: 218467
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

@@ -1,0 +1,19 @@
+GET http://ocrdata.ed.gov/Downloads/CRDC-Early-Childhood-Education-Snapshot.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 20 Mar 2014 17:00:14 GMT
+< Accept-Ranges: bytes
+< ETag: "0638edc5d44cf1:0"
+< Server: Microsoft-IIS/8.5
+< X-Ocr: 400
+< X-Frame-Options: DENY
+< X-XSS-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff 
+< Date: Thu, 26 Jan 2017 17:38:23 GMT
+< Connection: close
+< Content-Length: 1638388
+
+wrote body.pdf

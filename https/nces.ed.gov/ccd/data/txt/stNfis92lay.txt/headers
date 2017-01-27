@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/data/txt/stNfis92lay.txt
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: text/plain
+< Last-Modified: Thu, 17 Jan 2002 21:15:40 GMT
+< Accept-Ranges: bytes
+< ETag: "0a6651d9c9fc11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:21:51 GMT
+< Connection: close
+< Content-Length: 9092
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.txt

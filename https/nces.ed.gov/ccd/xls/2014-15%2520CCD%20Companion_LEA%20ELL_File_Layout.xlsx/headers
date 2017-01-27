@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/xls/2014-15%20CCD%20Companion_LEA%20ELL_File_Layout.xlsx
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Last-Modified: Mon, 07 Nov 2016 13:50:20 GMT
+< Accept-Ranges: bytes
+< ETag: "86341ae1fd38d21:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:23:37 GMT
+< Connection: close
+< Content-Length: 14242
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.xlsx

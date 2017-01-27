@@ -1,0 +1,17 @@
+GET https://www2.ed.gov/about/inits/ed/edfacts/sy-14-15-nonxml.html
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 21:25:55 GMT
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: JSESSIONID=0001CGKeggeGVeHGfZ3RNQgeczG:3PSVUUVP79; Path=/
+< Expires: Thu, 01 Dec 1994 16:00:00 GMT
+< Cache-Control: no-cache="set-cookie, set-cookie2"
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: text/html;charset=UTF-8
+< Content-Language: en
+< Strict-Transport-Security: max-age=7200
+
+wrote body.html

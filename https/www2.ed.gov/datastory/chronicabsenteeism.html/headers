@@ -1,0 +1,16 @@
+GET https://www2.ed.gov/datastory/chronicabsenteeism.html
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:38:03 GMT
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 27 Oct 2016 21:07:07 GMT
+< ETag: "116b0-8255-53fdf1fc7d4c0"
+< Accept-Ranges: bytes
+< Content-Length: 33365
+< Connection: close
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=7200
+
+wrote body.html

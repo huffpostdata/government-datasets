@@ -1,0 +1,19 @@
+GET https://crdc.grads360.org/services/PDCService.svc/GetPDCDocumentFile?fileId=20523
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:38:09 GMT
+< Server: Microsoft-IIS/7.5
+< Cache-Control: private
+< Content-Length: 201346
+< Content-Type: application/pdf
+< X-Rewritten-By: ManagedFusion (rewriter; reverse-proxy; +http://managedfusion.com/)
+< X-ManagedFusion-Rewriter-Version: 3.7
+< Content-Disposition: inline; filename*=UTF-8''Master%2520List%2520of%2520CRDC%2520Definitions.pdf
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Set-Cookie: ASP.NET_SessionId=uys2ben0zbyyifjv2codbf5a; path=/; HttpOnly
+< Connection: close
+
+wrote body.pdf

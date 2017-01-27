@@ -1,0 +1,16 @@
+GET https://www2.ed.gov/about/offices/list/ocr/docs/2013-14-first-look.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:38:17 GMT
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Fri, 28 Oct 2016 18:27:02 GMT
+< ETag: "1902d-ba91a-53ff1011e8980"
+< Accept-Ranges: bytes
+< Content-Length: 764186
+< Connection: close
+< Content-Type: application/pdf
+< Strict-Transport-Security: max-age=7200
+
+wrote body.pdf

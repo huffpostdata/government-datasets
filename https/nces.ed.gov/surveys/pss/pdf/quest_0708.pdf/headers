@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/surveys/pss/pdf/quest_0708.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Wed, 18 Mar 2009 18:18:00 GMT
+< Accept-Ranges: bytes
+< ETag: "6e7e1adff5a7c91:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:13:08 GMT
+< Connection: close
+< Content-Length: 111468
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

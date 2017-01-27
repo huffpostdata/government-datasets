@@ -1,0 +1,19 @@
+GET http://ocrdata.ed.gov/Downloads/2011-12_Definitions.doc
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/msword
+< Last-Modified: Thu, 27 Oct 2016 04:00:56 GMT
+< Accept-Ranges: bytes
+< ETag: "0ccdfb7630d21:0"
+< Server: Microsoft-IIS/8.5
+< X-Ocr: 400
+< X-Frame-Options: DENY
+< X-XSS-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff 
+< Date: Thu, 26 Jan 2017 17:38:12 GMT
+< Connection: close
+< Content-Length: 230400
+
+wrote body.doc

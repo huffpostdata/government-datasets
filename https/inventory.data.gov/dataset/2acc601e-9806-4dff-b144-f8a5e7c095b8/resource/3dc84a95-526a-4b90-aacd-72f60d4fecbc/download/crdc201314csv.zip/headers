@@ -1,0 +1,21 @@
+GET https://inventory.data.gov/dataset/2acc601e-9806-4dff-b144-f8a5e7c095b8/resource/3dc84a95-526a-4b90-aacd-72f60d4fecbc/download/crdc201314csv.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:37:15 GMT
+< Server: Apache/2.4.7 (Ubuntu)
+< Pragma: no-cache
+< Cache-Control: no-cache
+< Accept-Ranges: bytes
+< Last-Modified: Thu, 26 Jan 2017 17:37:16 GMT
+< Content-Range: bytes 0-25268202/25268203
+< ETag: "1485452236.93-25268203"
+< X-Frame-Options: SAMEORIGIN
+< Keep-Alive: timeout=5, max=98
+< Connection: Keep-Alive
+< Transfer-Encoding: chunked
+< Content-Type: application/zip
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+wrote body.zip

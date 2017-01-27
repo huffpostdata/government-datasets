@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/pdf/stnfis97form.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Thu, 14 Oct 1999 16:31:10 GMT
+< Accept-Ranges: bytes
+< ETag: "08e6866116bf1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:18:26 GMT
+< Connection: close
+< Content-Length: 16160
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

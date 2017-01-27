@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2016/2016337_codebook.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Mon, 15 Aug 2016 21:27:00 GMT
+< Accept-Ranges: bytes
+< ETag: "06afac13bf7d11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 21:33:26 GMT
+< Connection: close
+< Content-Length: 10779484
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

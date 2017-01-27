@@ -1,0 +1,16 @@
+GET https://www2.ed.gov/policy/gen/guid/school-discipline/files/corporal-punishment-dcl-11-22-2016.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:37:58 GMT
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Tue, 22 Nov 2016 15:49:05 GMT
+< ETag: "19d80-1231f-541e5b6475e40"
+< Accept-Ranges: bytes
+< Content-Length: 74527
+< Connection: close
+< Content-Type: application/pdf
+< Strict-Transport-Security: max-age=7200
+
+wrote body.pdf

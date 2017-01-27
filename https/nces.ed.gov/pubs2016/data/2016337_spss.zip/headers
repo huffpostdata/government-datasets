@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs2016/data/2016337_spss.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Tue, 08 Nov 2016 14:18:48 GMT
+< Accept-Ranges: bytes
+< ETag: "d426cd5cb39d21:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 21:34:02 GMT
+< Connection: close
+< Content-Length: 1667590
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

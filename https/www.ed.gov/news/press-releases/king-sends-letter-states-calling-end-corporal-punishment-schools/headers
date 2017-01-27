@@ -1,0 +1,30 @@
+GET https://www.ed.gov/news/press-releases/king-sends-letter-states-calling-end-corporal-punishment-schools
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:26:31 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=3600
+< X-Content-Type-Options: nosniff
+< X-Drupal-Cache: MISS
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Cache-Control: public, max-age=900
+< X-Content-Type-Options: nosniff
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+< X-Generator: Drupal 7 (http://drupal.org)
+< Last-Modified: Thu, 26 Jan 2017 17:26:31 GMT
+< Vary: Cookie,Accept-Encoding
+< Content-Type: text/html; charset=utf-8
+< X-Varnish: 27028865 27836546
+< Age: 685
+< Via: 1.1 varnish-v4
+< ETag: W/"1485451591-1"
+< X-Varnish-Cache: HIT
+< Accept-Ranges: bytes
+< Content-Length: 44805
+< Connection: close
+
+wrote body.html

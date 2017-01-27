@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/surveys/pss/zip/CODEBOOK_0708.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Mon, 09 Mar 2009 19:22:02 GMT
+< Accept-Ranges: bytes
+< ETag: "faed2253eca0c91:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 19:45:14 GMT
+< Connection: close
+< Content-Length: 84969
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

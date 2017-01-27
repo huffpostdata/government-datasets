@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/data/zip/ag131a_supp_txt.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Wed, 22 Jul 2015 17:24:12 GMT
+< Accept-Ranges: bytes
+< ETag: "df41b3aa3c4d01:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:23:53 GMT
+< Connection: close
+< Content-Length: 4190456
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

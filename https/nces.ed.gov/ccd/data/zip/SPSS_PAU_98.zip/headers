@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/data/zip/SPSS_PAU_98.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Sat, 11 Feb 2006 21:24:47 GMT
+< Accept-Ranges: bytes
+< ETag: "8c9d7595512fc61:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:48:56 GMT
+< Connection: close
+< Content-Length: 5314
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

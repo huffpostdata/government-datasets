@@ -1,0 +1,16 @@
+GET https://www2.ed.gov/about/offices/list/ocr/docs/crdc-2013-14-lea-form.doc
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:38:38 GMT
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Wed, 14 May 2014 13:38:26 GMT
+< ETag: "783c3-33200-4f95c4b829880"
+< Accept-Ranges: bytes
+< Content-Length: 209408
+< Connection: close
+< Content-Type: application/msword
+< Strict-Transport-Security: max-age=7200
+
+wrote body.doc

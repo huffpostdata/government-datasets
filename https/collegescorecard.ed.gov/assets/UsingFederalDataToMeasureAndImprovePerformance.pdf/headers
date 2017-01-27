@@ -1,0 +1,18 @@
+GET https://collegescorecard.ed.gov/assets/UsingFederalDataToMeasureAndImprovePerformance.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Content-Length: 1552541
+< Connection: close
+< Date: Sat, 14 Jan 2017 04:44:40 GMT
+< Cache-Control: max-age=60
+< Last-Modified: Fri, 13 Jan 2017 20:24:50 GMT
+< ETag: "0c8aac7d5a94ea8374d40e64e8082ded"
+< Server: AmazonS3
+< X-Cache: RefreshHit from cloudfront
+< Via: 1.1 8a898c8352ac2c0dbe0e8df08640694e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: fA111hKnrbPoL7L6wWEupO24PpfRwPV3EZtO1AD4TOITdz8EAKDKCg==
+
+wrote body.pdf

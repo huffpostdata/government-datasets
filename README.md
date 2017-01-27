@@ -23,3 +23,26 @@ That will map to two files:
    found of A) the `Content-Disposition` response header's `filename=`
    extension; B) the `Content-Type` response header; C) the extension of the
    URL `pathname` (the part before the query string -- may be blank).
+
+./download-url.js
+-----------------
+
+Usage: `./download-url.js URL1 [URL2 ...]`
+
+You can copy/paste these URLs from your browser's location bar: be sure to quote
+them. Also, if you're on a page that has lots of "downloads", open up a
+JavaScript console and type this to find a list of quoted download URLs from the
+HTML:
+
+```javascript
+let Selector = 'zip pdf xls xlsx txt gz doc docx sps sas'
+  .split(' ')
+  .map(ext => `a[href$=".${ext}"]`)
+  .join(', ')
+console.log(
+  Array.prototype.map.call(
+    document.querySelectorAll(Selector),
+    a => `"${a.href}"`
+  ).join(' ')
+)
+```

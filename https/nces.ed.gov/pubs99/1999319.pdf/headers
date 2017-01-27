@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/pubs99/1999319.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Tue, 31 Aug 1999 14:58:46 GMT
+< Accept-Ranges: bytes
+< ETag: "09e6653c1f3be1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:13:32 GMT
+< Connection: close
+< Content-Length: 611155
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.pdf

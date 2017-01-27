@@ -1,0 +1,11 @@
+GET http://www2.ed.gov/about/offices/list/ocr/docs/crdc-2013-14-all-schools-form.doc
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 302 Found
+< Location: https://www2.ed.gov/about/offices/list/ocr/docs/crdc-2013-14-all-schools-form.doc
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+
+wrote no content

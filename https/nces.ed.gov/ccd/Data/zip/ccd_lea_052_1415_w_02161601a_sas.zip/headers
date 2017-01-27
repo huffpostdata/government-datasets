@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_1415_w_02161601a_sas.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Mon, 07 Nov 2016 13:09:04 GMT
+< Accept-Ranges: bytes
+< ETag: "81b9441df838d21:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:22:57 GMT
+< Connection: close
+< Content-Length: 3801434
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

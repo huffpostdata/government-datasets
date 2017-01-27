@@ -1,0 +1,17 @@
+GET https://nces.ed.gov/surveys/pss/privateschoolsearch/aboutdata.asp
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Cache-Control: private
+< Content-Length: 3008
+< Content-Type: text/html
+< Server: Microsoft-IIS/8.0
+< Set-Cookie: ASPSESSIONIDQCSDQARC=OKGPMEEABMJMJNFBOAILLBND; path=/
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 19:43:02 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.html

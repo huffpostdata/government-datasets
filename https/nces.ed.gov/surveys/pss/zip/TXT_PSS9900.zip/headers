@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/surveys/pss/zip/TXT_PSS9900.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Thu, 03 Sep 2009 20:57:41 GMT
+< Accept-Ranges: bytes
+< ETag: "d040932dd92cca1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 19:47:54 GMT
+< Connection: close
+< Content-Length: 3302616
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

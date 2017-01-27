@@ -1,0 +1,18 @@
+GET https://collegescorecard.ed.gov/assets/BetterInformationForBetterCollegeChoiceAndInstitutionalPerformance.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Content-Length: 462737
+< Connection: close
+< Date: Wed, 18 Jan 2017 14:23:16 GMT
+< Cache-Control: max-age=60
+< Last-Modified: Fri, 13 Jan 2017 20:24:50 GMT
+< ETag: "5980cb2ce4d3f2864a531072b4c86731"
+< Server: AmazonS3
+< X-Cache: RefreshHit from cloudfront
+< Via: 1.1 b01831623dd4f0e4e4bccb0793c852ec.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: ncqWhz3fd-pcHD8rTRgGVY7M4e1nUSJbUZiexE7DA0JHT0nKU2uElQ==
+
+wrote body.pdf

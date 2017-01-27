@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/data/zip/ccd_sea_029_1415_w_0216161a_xls.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Mon, 24 Oct 2016 13:04:09 GMT
+< Accept-Ranges: bytes
+< ETag: "b0ceb21bf72dd21:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:15:24 GMT
+< Connection: close
+< Content-Length: 11241
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

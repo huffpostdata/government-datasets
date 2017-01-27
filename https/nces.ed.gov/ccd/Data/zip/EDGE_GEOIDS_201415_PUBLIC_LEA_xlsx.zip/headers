@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/Data/zip/EDGE_GEOIDS_201415_PUBLIC_LEA_xlsx.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Wed, 05 Oct 2016 00:04:26 GMT
+< Accept-Ranges: bytes
+< ETag: "6cf26399c1ed21:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:23:46 GMT
+< Connection: close
+< Content-Length: 2518325
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

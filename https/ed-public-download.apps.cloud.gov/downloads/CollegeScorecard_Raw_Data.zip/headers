@@ -1,0 +1,26 @@
+GET https://ed-public-download.apps.cloud.gov/downloads/CollegeScorecard_Raw_Data.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Accept-Ranges: bytes
+< Cache-Control: max-age=600
+< Cache-Control: public
+< Content-Type: application/zip
+< Date: Thu, 26 Jan 2017 21:39:09 GMT
+< Etag: "0a720d1e2a558d511027bd77f94a8f7d-29"
+< Expires: Thu, 26 Jan 2017 21:49:09 GMT
+< Last-Modified: Tue, 27 Dec 2016 13:55:38 GMT
+< Pragma: public
+< Server: nginx
+< Strict-Transport-Security: max-age=31536000
+< X-Amz-Id-2: EeAfxN5eqX8fmF2pPgRGAFhCRL8R+N1XGBg+3Vhyb3ctEcO9o0RdGNcWnGQRRm2wrzz25RkU0Pc=
+< X-Amz-Request-Id: C20D4F0E6692781B
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< X-Vcap-Request-Id: ddc5d2a7-7779-4717-6cd6-5bcd8ec6c55e
+< X-XSS-Protection: 1; mode=block
+< Content-Length: 240622167
+< Connection: Close
+
+wrote body.zip

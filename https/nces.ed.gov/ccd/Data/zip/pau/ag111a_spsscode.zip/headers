@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/Data/zip/pau/ag111a_spsscode.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Mon, 10 Mar 2014 18:48:11 GMT
+< Accept-Ranges: bytes
+< ETag: "68981449913ccf1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:26:09 GMT
+< Connection: close
+< Content-Length: 6249
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

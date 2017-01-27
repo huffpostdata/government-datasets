@@ -1,0 +1,12 @@
+GET http://catalog.data.gov/download/crdc201314csv.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: http://inventory.data.gov/dataset/2acc601e-9806-4dff-b144-f8a5e7c095b8/resource/3dc84a95-526a-4b90-aacd-72f60d4fecbc/download/crdc201314csv.zip
+< Date: Thu, 26 Jan 2017 17:37:14 GMT
+< Connection: close
+
+wrote no content

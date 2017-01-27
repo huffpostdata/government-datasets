@@ -1,0 +1,19 @@
+GET http://ocrdata.ed.gov/DataNotes
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/8.5
+< X-AspNetMvc-Version: 2.0
+< X-AspNet-Version: 4.0.30319
+< X-Ocr: 400
+< X-Frame-Options: DENY
+< X-XSS-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff 
+< Date: Thu, 26 Jan 2017 17:38:04 GMT
+< Connection: close
+< Content-Length: 27857
+
+wrote body.html

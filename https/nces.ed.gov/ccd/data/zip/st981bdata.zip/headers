@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/data/zip/st981bdata.zip
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/x-zip-compressed
+< Last-Modified: Thu, 04 Oct 2001 15:21:13 GMT
+< Accept-Ranges: bytes
+< ETag: "506bf533e84cc11:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:18:11 GMT
+< Connection: close
+< Content-Length: 22798
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.zip

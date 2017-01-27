@@ -1,0 +1,19 @@
+GET http://ocrdata.ed.gov/Downloads/CRDC-School-Discipline-Snapshot.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Fri, 05 Jun 2015 19:59:21 GMT
+< Accept-Ranges: bytes
+< ETag: "80f2d91cca9fd01:0"
+< Server: Microsoft-IIS/8.5
+< X-Ocr: 400
+< X-Frame-Options: DENY
+< X-XSS-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff 
+< Date: Thu, 26 Jan 2017 17:38:19 GMT
+< Connection: close
+< Content-Length: 2110482
+
+wrote body.pdf

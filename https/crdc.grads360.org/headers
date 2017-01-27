@@ -1,0 +1,20 @@
+GET https://crdc.grads360.org/#communities/pdc/documents/5123
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:37:38 GMT
+< Server: Microsoft-IIS/7.5
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< X-Rewritten-By: ManagedFusion (rewriter; reverse-proxy; +http://managedfusion.com/)
+< X-ManagedFusion-Rewriter-Version: 3.7
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Content-Length: 45089
+< Set-Cookie: ASP.NET_SessionId=m5iyc1ymzbmjbouj4kfpqfqf; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=m5iyc1ymzbmjbouj4kfpqfqf; path=/; HttpOnly
+< Set-Cookie: ApplicationProgramId=21; path=/; HttpOnly
+< Connection: close
+
+wrote body.html

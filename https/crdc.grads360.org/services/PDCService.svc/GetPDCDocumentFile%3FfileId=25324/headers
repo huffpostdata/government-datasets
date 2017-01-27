@@ -1,0 +1,19 @@
+GET https://crdc.grads360.org/services/PDCService.svc/GetPDCDocumentFile?fileId=25324
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:37:46 GMT
+< Server: Microsoft-IIS/7.5
+< Cache-Control: private
+< Content-Length: 1158006
+< Content-Type: application/pdf
+< X-Rewritten-By: ManagedFusion (rewriter; reverse-proxy; +http://managedfusion.com/)
+< X-ManagedFusion-Rewriter-Version: 3.7
+< Content-Disposition: inline; filename*=UTF-8''2015-16%2520CRDC%2520LEA-Level%2520Table%2520Layout.pdf
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Set-Cookie: ASP.NET_SessionId=its1ahrsa02pmahmjn3svfxx; path=/; HttpOnly
+< Connection: close
+
+wrote body.pdf

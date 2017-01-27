@@ -16,8 +16,6 @@ const url_to_dirname = require('./lib/url_to_dirname')
 
 const s3 = new AWS.S3()
 const Bucket = 'gov-datasets.huffingtonpost.com'
-const FtpHost = 'ftp.cpc.ncep.noaa.gov'
-const FtpRootDir = 'long/uv/cities'
 
 function pathToExt(path) {
   const m = /(\.\w{1,4})$/.exec(path)
@@ -112,10 +110,35 @@ function downloadFile(ftpClient, path, callback) {
   })
 }
 
-const client = new ftp()
-client.on('ready', () => {
-  downloadDir(client, 'long/uv/cities', err => {
-    if (err) throw err
+function main(rootUrl, callback) {
+  const ftpOptions = url.parse(rootUrl)
+  const path = ftpOptions.path.replace(/^\/|\/$/g, '') // /pub/data/gridded-nw-pac/ => pub/data/gridded-nw-pac
+
+  let errored = false
+  const client = new ftp()
+  client.on('ready', () => {
+    downloadDir(client, path, err => {
+      client.end()
+
+      if (errored) return
+      if (!err) return // 'end' will fire soon
+      errored = true
+      return callback(err)
+    })
   })
+  client.on('error', err => {
+    if (errored === true) return
+    errored = true
+    return callback(err)
+  })
+  client.on('close', hadErr => {
+    if (errored === true) return
+    if (hadErr) return callback(new Error("ftp.close() reported an error that we didn't see"))
+    return callback(null)
+  })
+  client.connect(ftpOptions)
+}
+
+async.eachSeries(process.argv.slice(2), main, err => {
+  if (err) throw err
 })
-client.connect({ host: FtpHost })

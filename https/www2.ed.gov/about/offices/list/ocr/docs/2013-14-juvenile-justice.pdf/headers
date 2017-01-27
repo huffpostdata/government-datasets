@@ -1,0 +1,16 @@
+GET https://www2.ed.gov/about/offices/list/ocr/docs/2013-14-juvenile-justice.pdf
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Date: Thu, 26 Jan 2017 17:38:00 GMT
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 01 Dec 2016 21:24:15 GMT
+< ETag: "1a240-9fe59-5429f717ffdc0"
+< Accept-Ranges: bytes
+< Content-Length: 654937
+< Connection: close
+< Content-Type: application/pdf
+< Strict-Transport-Security: max-age=7200
+
+wrote body.pdf

@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/xls/2014-15%20CCD%20Companion_SEA%20Directory_File_Layout.xlsx
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Last-Modified: Wed, 26 Oct 2016 15:33:25 GMT
+< Accept-Ranges: bytes
+< ETag: "436d84b9e2fd21:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:21:08 GMT
+< Connection: close
+< Content-Length: 15512
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.xlsx

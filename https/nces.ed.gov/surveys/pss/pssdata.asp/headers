@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/surveys/pss/pssdata.asp
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Cache-Control: private
+< Content-Length: 53216
+< Content-Type: text/html
+< Server: Microsoft-IIS/8.0
+< Set-Cookie: OnlineSurvey=URL=; path=/
+< Set-Cookie: ASPSESSIONIDQCSDQARC=ELGPMEEAAGKBIFMOLMCIEIMJ; path=/
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 19:43:08 GMT
+< Connection: close
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.html

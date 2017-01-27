@@ -1,0 +1,18 @@
+GET https://nces.ed.gov/ccd/data/txt/pau081alay.txt
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: text/plain
+< Last-Modified: Mon, 30 Aug 2010 15:43:25 GMT
+< Accept-Ranges: bytes
+< ETag: "a647a4155a48cb1:0"
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ASP.NET
+< X-UA-Compatible: IE=edge
+< Date: Thu, 26 Jan 2017 20:45:06 GMT
+< Connection: close
+< Content-Length: 20485
+< Strict-Transport-Security: max-age=31536000; preload
+
+wrote body.txt
