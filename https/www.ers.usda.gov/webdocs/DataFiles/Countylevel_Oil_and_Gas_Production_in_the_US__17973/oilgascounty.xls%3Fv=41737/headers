@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Countylevel_Oil_and_Gas_Production_in_the_US__17973/oilgascounty.xls?v=41737
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Fri, 21 Oct 2016 04:02:15 GMT
+< Accept-Ranges: bytes
+< ETag: "86e9b1e84f2bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:44:19 GMT
+< Connection: close
+< Content-Length: 1026560
+
+wrote body.xls

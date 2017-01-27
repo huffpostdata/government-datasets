@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Fruit_and_Vegetable_Prices__17986/bananas.xlsx?v=42082
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Last-Modified: Fri, 21 Oct 2016 04:22:13 GMT
+< Accept-Ranges: bytes
+< ETag: "26a51b3522bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:48:16 GMT
+< Connection: close
+< Content-Length: 15819
+
+wrote body.xlsx

@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Milk_Cost_of_Production_Estimates__17996/milksizes2005base.xls?v=40819
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Thu, 05 Jan 2017 13:58:41 GMT
+< Accept-Ranges: bytes
+< ETag: "137d11d25b67d21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:48:39 GMT
+< Connection: close
+< Content-Length: 58880
+
+wrote body.xls

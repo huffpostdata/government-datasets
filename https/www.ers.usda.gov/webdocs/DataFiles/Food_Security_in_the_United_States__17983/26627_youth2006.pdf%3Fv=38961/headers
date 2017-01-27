@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Food_Security_in_the_United_States__17983/26627_youth2006.pdf?v=38961
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/pdf
+< Last-Modified: Fri, 21 Oct 2016 22:27:34 GMT
+< Accept-Ranges: bytes
+< ETag: "276ef951ea2bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:50:16 GMT
+< Connection: close
+< Content-Length: 25397
+
+wrote body.pdf

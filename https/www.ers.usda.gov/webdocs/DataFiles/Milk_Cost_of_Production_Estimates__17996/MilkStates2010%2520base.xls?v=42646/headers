@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Milk_Cost_of_Production_Estimates__17996/MilkStates2010%20base.xls?v=42646
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Thu, 05 Jan 2017 13:58:46 GMT
+< Accept-Ranges: bytes
+< ETag: "29764ad55b67d21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:48:34 GMT
+< Connection: close
+< Content-Length: 163840
+
+wrote body.xls

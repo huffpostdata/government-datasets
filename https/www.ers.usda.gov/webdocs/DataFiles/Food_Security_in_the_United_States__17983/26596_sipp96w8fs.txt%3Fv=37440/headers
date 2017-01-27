@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Food_Security_in_the_United_States__17983/26596_sipp96w8fs.txt?v=37440
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: text/plain
+< Last-Modified: Fri, 21 Oct 2016 22:27:28 GMT
+< Accept-Ranges: bytes
+< ETag: "50a0a84eea2bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:49:43 GMT
+< Connection: close
+< Content-Length: 708938
+
+wrote body.txt

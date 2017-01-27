@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Wheat_Data__18020/wheats_dbyclassbyqtr_1_Jan2017.xls?v=42748
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Fri, 13 Jan 2017 20:20:32 GMT
+< Accept-Ranges: bytes
+< ETag: "a86d7f7dda6dd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:51:47 GMT
+< Connection: close
+< Content-Length: 60416
+
+wrote body.xls

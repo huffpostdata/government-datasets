@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Feed_Grains_Yearbook_Tables__18027/FeedGrains.csv?v=42753
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/octet-stream
+< Last-Modified: Wed, 18 Jan 2017 19:56:30 GMT
+< Accept-Ranges: bytes
+< ETag: "459520f6c471d21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:46:11 GMT
+< Connection: close
+< Content-Length: 4524911
+
+wrote body.csv

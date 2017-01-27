@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Food_Availability_Per_Capita_Data_System__17979/fruitju.xls?v=42585
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Fri, 21 Oct 2016 04:20:01 GMT
+< Accept-Ranges: bytes
+< ETag: "1f974e64522bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:47:00 GMT
+< Connection: close
+< Content-Length: 239616
+
+wrote body.xls

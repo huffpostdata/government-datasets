@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Fertilizer_Use_and_Price__17978/fertilizeruse.xls?v=41467
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Fri, 21 Oct 2016 04:19:19 GMT
+< Accept-Ranges: bytes
+< ETag: "3357434b522bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:46:20 GMT
+< Connection: close
+< Content-Length: 665088
+
+wrote body.xls

@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Adoption_of_Genetically_Engineered_Crops_in_the_US__17963/alltables2016.xls?v=42565
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Fri, 21 Oct 2016 03:58:13 GMT
+< Accept-Ranges: bytes
+< ETag: "2f11c1584f2bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:38:48 GMT
+< Connection: close
+< Content-Length: 124416
+
+wrote body.xls

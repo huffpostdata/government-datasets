@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/US_Food_Imports__18017/grains2_1_.xlsx?v=42312
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Last-Modified: Fri, 21 Oct 2016 04:37:57 GMT
+< Accept-Ranges: bytes
+< ETag: "8ac99e5542bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:51:21 GMT
+< Connection: close
+< Content-Length: 21678
+
+wrote body.xlsx

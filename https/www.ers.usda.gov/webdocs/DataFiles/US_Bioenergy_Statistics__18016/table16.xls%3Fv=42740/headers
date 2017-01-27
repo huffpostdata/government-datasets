@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/US_Bioenergy_Statistics__18016/table16.xls?v=42740
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Thu, 05 Jan 2017 14:09:15 GMT
+< Accept-Ranges: bytes
+< ETag: "db2004c5d67d21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:51:46 GMT
+< Connection: close
+< Content-Length: 87552
+
+wrote body.xls

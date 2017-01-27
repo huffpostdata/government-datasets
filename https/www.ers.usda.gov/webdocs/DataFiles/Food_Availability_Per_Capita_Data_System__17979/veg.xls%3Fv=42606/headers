@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Food_Availability_Per_Capita_Data_System__17979/veg.xls?v=42606
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Fri, 21 Oct 2016 04:20:13 GMT
+< Accept-Ranges: bytes
+< ETag: "ff1f346b522bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:47:41 GMT
+< Connection: close
+< Content-Length: 2068480
+
+wrote body.xls

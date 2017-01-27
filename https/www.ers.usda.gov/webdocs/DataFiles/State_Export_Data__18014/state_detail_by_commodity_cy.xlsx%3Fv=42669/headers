@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/State_Export_Data__18014/state_detail_by_commodity_cy.xlsx?v=42669
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Last-Modified: Thu, 27 Oct 2016 12:53:50 GMT
+< Accept-Ranges: bytes
+< ETag: "7e27e2a5130d21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:50:36 GMT
+< Connection: close
+< Content-Length: 517906
+
+wrote body.xlsx

@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Normalized_Prices__17998/natlprices.xls?v=42643
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Fri, 21 Oct 2016 04:26:21 GMT
+< Accept-Ranges: bytes
+< ETag: "8559b346532bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:48:47 GMT
+< Connection: close
+< Content-Length: 40448
+
+wrote body.xls

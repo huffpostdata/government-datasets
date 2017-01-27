@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/Creative_Class_County_Codes__17974/creativeclass200711.csv?v=41775
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/octet-stream
+< Last-Modified: Fri, 21 Oct 2016 04:02:18 GMT
+< Accept-Ranges: bytes
+< ETag: "f5c2ccea4f2bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:44:46 GMT
+< Connection: close
+< Content-Length: 402705
+
+wrote body.csv

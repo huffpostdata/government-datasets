@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/County_Typology_Codes__17972/all_final_codes.xls?v=39630
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.ms-excel
+< Last-Modified: Tue, 03 Jan 2017 17:30:22 GMT
+< Accept-Ranges: bytes
+< ETag: "f47fb2fe765d21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:43:32 GMT
+< Connection: close
+< Content-Length: 2051584
+
+wrote body.xls

@@ -1,0 +1,15 @@
+GET https://www.ers.usda.gov/data-products/fertilizer-use-and-price
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< X-AspNetMvc-Version: 5.2
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:46:19 GMT
+< Connection: close
+< Content-Length: 29586
+
+wrote body.html

@@ -1,0 +1,16 @@
+GET https://www.ers.usda.gov/webdocs/DataFiles/US_Food_Imports__18017/vegetables2_1_.xlsx?v=42312
+
+> User-Agent: The Huffington Post (adam.hooper@huffingtonpost.com)
+
+< Status 200 OK
+< Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+< Last-Modified: Fri, 21 Oct 2016 04:38:01 GMT
+< Accept-Ranges: bytes
+< ETag: "40e613e8542bd21:0"
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000
+< Date: Fri, 27 Jan 2017 15:51:16 GMT
+< Connection: close
+< Content-Length: 19676
+
+wrote body.xlsx
