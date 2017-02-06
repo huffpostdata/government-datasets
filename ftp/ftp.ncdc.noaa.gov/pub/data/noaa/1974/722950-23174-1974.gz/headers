@@ -1,0 +1,7 @@
+GET pub/data/noaa/1974/722950-23174-1974.gz
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.gz

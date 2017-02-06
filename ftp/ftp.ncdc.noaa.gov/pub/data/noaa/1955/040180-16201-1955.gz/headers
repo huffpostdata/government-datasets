@@ -1,0 +1,7 @@
+GET pub/data/noaa/1955/040180-16201-1955.gz
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.gz

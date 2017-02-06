@@ -1,0 +1,7 @@
+GET pub/data/ushcn/v2.5/ushcn-v2.5-stations.txt
+
+
+
+< Content-Type: text/plain
+
+wrote body.txt

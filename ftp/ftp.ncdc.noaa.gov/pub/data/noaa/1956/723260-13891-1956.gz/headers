@@ -1,0 +1,7 @@
+GET pub/data/noaa/1956/723260-13891-1956.gz
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.gz

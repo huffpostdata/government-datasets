@@ -1,0 +1,7 @@
+GET pub/data/ushcn/v2.5/ushcn.tmax.latest.raw.tar.gz
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.gz

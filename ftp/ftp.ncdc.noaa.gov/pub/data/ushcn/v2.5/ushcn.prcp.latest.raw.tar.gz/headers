@@ -1,0 +1,7 @@
+GET pub/data/ushcn/v2.5/ushcn.prcp.latest.raw.tar.gz
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.gz

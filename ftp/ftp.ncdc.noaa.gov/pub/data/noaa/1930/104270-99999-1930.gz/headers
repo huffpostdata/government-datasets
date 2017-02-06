@@ -1,0 +1,7 @@
+GET pub/data/noaa/1930/104270-99999-1930.gz
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.gz

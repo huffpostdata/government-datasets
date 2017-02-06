@@ -1,0 +1,7 @@
+GET pub/data/noaa/1965/847520-99999-1965.gz
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.gz

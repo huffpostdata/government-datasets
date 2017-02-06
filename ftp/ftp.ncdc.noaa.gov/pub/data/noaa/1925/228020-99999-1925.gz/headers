@@ -1,0 +1,7 @@
+GET pub/data/noaa/1925/228020-99999-1925.gz
+
+
+
+< Content-Type: application/octet-stream
+
+wrote body.gz
