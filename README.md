@@ -3,7 +3,7 @@ government-datasets
 
 A selective mirror of the Internet.
 
-Browse here: https://pages.git.huffpo.net/huffpostdata/government-datasets/
+Browse here: https://pages.github.com/huffpostdata/government-datasets/
 
 Filesystem structure
 --------------------
